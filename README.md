@@ -2,7 +2,7 @@
 
 - [CSE 5324 - Software Engineering I](#cse-5324---software-engineering-i)
   - [Course Info](#course-info)
-  - [Presentation](#presentation)
+  - [Assignments](#assignments)
   - [Collaborator](#collaborator)
 
 ## Course Info
@@ -13,9 +13,10 @@ CSE 5324 Software Engineering I Analysis, Design, Testing
 - Room: NH 111
 - Instructor: Christoph Csallner
 
-## Presentation
+## Assignments
 
-1. [Inception Presentation](https://docs.google.com/presentation/d/1myG6JJ37fxbQILkVfZJHq8xefceV-3GFdfXEm4fokws/edit?usp=sharing) (under constraction...)
+1. [Inception (Written Deliverable)](https://docs.google.com/document/d/1IJo2jN_k6EzOgV0dzUAQwwjNsBohCcDou44ztYv_84g/edit?usp=sharing) (under constraction...)
+2. [Inception Presentation](https://docs.google.com/presentation/d/1myG6JJ37fxbQILkVfZJHq8xefceV-3GFdfXEm4fokws/edit?usp=sharing) (under constraction...)
 
 ## Collaborator
 
