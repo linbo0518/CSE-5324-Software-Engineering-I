@@ -19,8 +19,8 @@ CSE 5324 Software Engineering I Analysis, Design, Testing
 
 ## Collaborator
 
-| Collaborator | Student ID |        Email        |
-| :----------: | :--------: | :-----------------: |
-|    Bo Lin    | 1001778270 | linbo0518@gmail.com |
-|  Haibo Wang  |            |                     |
-| Jiaying Zhou |            |                     |
+| Collaborator | Student ID |         Email          |
+| :----------: | :--------: | :--------------------: |
+|    Bo Lin    | 1001778270 |  linbo0518@gmail.com   |
+|  Haibo Wang  |            | faithwhb0014@gmail.com |
+| Jiaying Zhou |            | zjy474438417@gmail.com |
