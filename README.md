@@ -15,12 +15,12 @@ CSE 5324 Software Engineering I Analysis, Design, Testing
 
 ## Assignments
 
-1. [Inception (Written Deliverable)](https://docs.google.com/document/d/1IJo2jN_k6EzOgV0dzUAQwwjNsBohCcDou44ztYv_84g/edit?usp=sharing) (under constraction...)
-2. [Inception Presentation](https://docs.google.com/presentation/d/1myG6JJ37fxbQILkVfZJHq8xefceV-3GFdfXEm4fokws/edit?usp=sharing) (under constraction...)
+1. [Inception (Written Deliverable)](https://docs.google.com/document/d/1IJo2jN_k6EzOgV0dzUAQwwjNsBohCcDou44ztYv_84g/edit?usp=sharing)
+2. [Inception Presentation](https://docs.google.com/presentation/d/1myG6JJ37fxbQILkVfZJHq8xefceV-3GFdfXEm4fokws/edit?usp=sharing)
 
 ## Collaborator
 
-| Collaborator | Student ID |         Email          |
+|     Name     | Student ID |         Email          |
 | :----------: | :--------: | :--------------------: |
 |    Bo Lin    | 1001778270 |  linbo0518@gmail.com   |
 |  Haibo Wang  | 1001778514 | faithwhb0014@gmail.com |
