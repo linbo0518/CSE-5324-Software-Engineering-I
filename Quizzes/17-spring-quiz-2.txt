@@ -1,0 +1,100 @@
+Name: __________________________________
+ID: __________________________________
+
+
+CSE 3311, Spring 2017, Quiz 2
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+			
+				
+Question 1, max points = 10 * 5 = 50
+
+True or false?
+
+____: Code reviews are an interesting research topic but are not done in 
+			industrial software engineering.
+____: A best practice is to quantify the extent to which each requirement must
+			be met.
+____: Usability requirements cannot be made testable.			
+____: For each pair of sets (A,B) in a given domain model, there can be more 
+			than one relation between A and B in the domain model.
+____: For each pair of classes (A,B) in a given UML class diagram, there can be
+			more than one association (line) between A and B in the class diagram.
+____: The domain models discussed in class can be explained in terms of sets, 
+			relations, and constraints on sets and relations.
+____: When designing a domain model as a UML class diagram, we can express the 
+			constraint that "each element of X shall also be an element of a subset 
+			of X" directly in the domain model. But we cannot express such a 
+			constraint in Java, when translating the domain model to Java code.
+____: A relation in a domain model represents a relation variable, i.e.,
+			during program execution the content of the relation may change.
+____: Assume that in a domain model "Cash Pay" is a subtype (subset) of "Pay". 
+			The domain model defines a relationship between Pay and Client. This 
+			means that Cash Pay inherits this relationship.
+____: In a domain model that is expressed as a UML class diagram each box must
+			have a direct connection (line) to at least two other boxes.
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+Question 2, max points = 10 + 15 + 10 + 15 = 50
+
+(a) While designing university administration software, you have identified 
+three groups of stakeholders: professors ("Prof"), administrators ("Admin"), 
+and students ("Student"). Draw a domain model as a UML class diagram that 
+initially contains a single box. This box will represent all stakeholders. Then
+add to the diagram additional elements to represent professors, administrators, 
+students and the way they are related to the stakeholder box. In your domain 
+model, reflect the given constraint C1 that these three groups of stakeholders 
+shall not overlap (e.g., no professor can also be a student).
+
+
+
+
+
+
+
+
+
+(b) Now convert your domain model to object-oriented source code. State the 
+object-oriented language you are using in your answer (e.g., "Java").
+
+
+
+
+
+
+
+
+
+
+(c) Now draw another domain model as a UML class diagram. In the new model, 
+retain the three distinct groups of stakeholders. But this model should allow a 
+member of one group to also be a member of one or both of the other groups. In 
+other words, your new domain model should not follow constraint C1 but otherwise
+be identical to (a).
+
+
+
+
+
+
+
+
+(d) Now convert your new domain model to object-oriented source code. Use the 
+same object-oriented language as in (b).
+

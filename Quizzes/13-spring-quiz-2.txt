@@ -1,0 +1,60 @@
+Name: __________________________________
+ID: __________________________________
+
+
+Quiz 2, CSE 5324
+February 27th, 2013
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+
+
+Question 1, max points = 15 * 4 = 60
+
+True or false?
+
+
+_____: "Set" and "tuple" are synonyms.
+_____: A relation is a set of tuples.
+_____: A binary relation is a set of pairs.
+_____: If a graph has nodes {A, B, C} and contains an edge that originates
+				at node A and terminates at node A then the graph's edges cannot be 
+				represented truthfully as a binary relation on the graph's nodes.
+_____: If a graph has nodes {A, B, C} and contains two edges that originate
+				at node A and terminate at node B then the graph's edges cannot be 
+				represented truthfully as a binary relation on the graph's nodes.
+_____: The goal of creating a domain model is to capture all elements in the
+				customer's domain.
+_____: Using attributes in UML class diagrams is the preferred way of 
+				capturing relations in the customer's domain.
+_____: A UML class diagram is a graph that can contain two edges that 
+				originate at a node A and terminate at a node B (where A and B are
+				different nodes).
+_____: If a UML class diagram has 5 nodes then it must have at least 
+				5 edges.
+_____: A relation in a domain model represents a relation variable, i.e.,
+				during program execution the content of the relation may change.
+_____: A multiplicity constraint in a UML class diagram captures the
+				constraint that the two sets participating in the constrained 
+				relation have exactly the given numbers of elements.				
+_____: A multiplicity constraint in a UML class diagram captures the
+				constraint that the two sets participating in the constrained 
+				relation have at least the given numbers of elements.
+_____: If B is a subclass of A, C is a subclass of B, and A has attribute T 
+				then C inherits T.
+_____: If B is a subclass of A, C is a subclass of B, and A has a relation
+				with D, then C inherits this relation.
+_____: Code reviews are an interesting research topic but are not done in 
+				practice.
+
+
+Question 2, max points = 40
+
+This is an open-ended question. Provide as much information as you
+can within the time limit. Pick one use-case of your team project and
+develop it here.

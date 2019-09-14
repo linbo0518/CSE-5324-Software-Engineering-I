@@ -1,0 +1,65 @@
+Name: __________________________________
+ID: __________________________________
+
+
+Quiz 4, CSE 5324
+April 22nd, 2010
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+
+
+Question 1, max points = 60
+
+True or false?
+
+_____: The design class diagram is the most important element of a 
+				software design because it includes all the information that is
+				contained in the dynamic design models.	
+_____: Each class in a UML class diagram represents a class in an
+				object-oriented program.			
+_____: A relation that is not a function cannot be represented in a
+				design class diagram.
+_____: A relation that is not a function cannot be implemented in code.
+_____: Sub-contracting in Design by Contract means that a sub-contractor
+				may place additional requirements on the client.
+_____: Method overloading is a synonym of method overriding.
+_____: Method overloading cannot be resolved by the compiler.
+_____: Method overriding cannot be resolved by the compiler.
+_____: Method m in "class C extends B{ X m(){..} }" overloads method m
+				in "class B{ X m(){..} }".
+_____: Method overriding can be explained as sub-contracting.
+_____: Method overloading is best explained as sub-contracting.				
+_____: The class project is designed to closely follow the waterfall model.
+_____: The main goal of the project inception phase is to create a use-case
+				diagram.
+_____: We can easily prove that a requirements document is sound and complete
+				with respect to the wishes of the user.	
+_____: Each use-case consists of one success scenario and one 
+				failure scenario.				
+
+
+The following questions are on our guest lecture.
+
+_____: The gist of the guest lecture was that testing is bad.
+_____: The gist of the guest lecture was that unit testing is bad.
+_____: The gist of the guest lecture was that C# is a better programming
+				language than Java, so there is less need for testing.
+_____: Test cases have to be written by hand. There are no tools that
+				can generate test cases.
+_____: The guest lecture was on a tool that can generate test cases
+				that are so good that no human could ever write them.
+
+
+Question 2, max points = 40
+
+This is an open-ended question. Provide as much information as you
+can within the time limit. Pick one use-case of your team project and
+develop it here.
+
+

@@ -1,0 +1,91 @@
+Name: __________________________________
+ID: __________________________________
+
+
+Quiz 2, CSE 5324
+Tuesday, March 9th, 2010
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+
+
+Question 1, max points = 60
+
+True or false?
+
+_____: Each class in a UML class diagram represents a class in an
+				object-oriented program.
+_____: Each class in a UML class diagram is represented with a circle.				
+_____: An operation contract defines the pre- and post-conditions of a
+				step in a use-case scenario.
+_____: Operation contracts are part of the design (they are not part
+				of the requirements).
+_____: Operation contracts are not directly related to the domain model.
+_____: Operation contracts must be expressed in first-order logic.
+_____: UML packages can only be used in UML package diagrams.
+_____: Simple names are globally unique.
+_____: Name-spaces are typically organized in a tree-structure.
+_____: Name-spaces allow one to reuse the same simple name for 
+				different elements.
+_____: The design class diagram is considered a static design model.				
+_____: In UML sequence diagrams, a method return value can be visualized
+				with an arrow, but the arrow is optional.
+_____: The design class diagram is the most important element of a 
+				software design because it includes all the information that is
+				contained in the dynamic design models.
+_____: A box in a sequence diagram typically represents an object.
+_____: A guard in a sequence diagram prevents the guarded method call 
+				from occurring under any circumstances.
+_____: Designing for visibility means that it is best to make methods
+				public.
+_____: A box in a communication diagram represents the same amount of
+				items as the corresponding box in a domain model.
+_____: A box in a communication diagram represents the same amount of
+				items as the corresponding box in a sequence diagram.
+_____: An advantage of UML communication diagrams over UML sequence
+				diagrams is that they are more compact.
+_____: Guards in communication diagrams have a different function
+				than guards in sequence diagrams.
+
+
+Question 2, max points = 30
+
+You are designing a system that manages sports teams. You have identified
+two important groups of stakeholders: owners and players. Draw a domain 
+model as a UML class diagram that contains a class that represents all 
+stakeholders. Then add to the diagram additional elements to represent 
+owners and players and the way they are related to the stakeholder class.
+
+
+
+
+Now convert your domain model to Java code. I.e., outline the Java class 
+or interface definitions that ensure that an owner cannot be a player
+and vice versa.
+
+
+
+
+
+Now do another Java code outline, in which a player may also be an owner.
+
+
+
+
+
+Question 3, max points = 10
+
+Draw a UML sequence diagram that involves the following:
+- One call to a method named c.
+- An arbitrary number of calls to method a.
+- An arbitrary number of calls to method b.
+Design the diagram in such a way that it can be mapped to two different
+implementations of a, b, and c:
+- In the first implementation, a calls c, but b does not call c.
+- In the second implementation, b calls c, but a does not call c.
+Also give an outline of the two different implementations.

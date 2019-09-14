@@ -1,0 +1,57 @@
+Name: __________________________________
+ID: __________________________________
+
+
+Quiz 2, CSE 5324
+March 18, 2015
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+
+
+Question 1, max points = 10 * 5 = 50
+
+True or false?
+
+____: We can easily prove that a requirements document is sound and complete
+			with respect to the wishes of the user.
+____: Each use-case consists of one success scenario and one failure scenario.
+____: A domain model can only be expressed as a UML class diagram.
+____: A UML class diagram can only express domain models.
+____: Each class in a UML class diagram represents a class in an 
+			object-oriented program.
+____: The name of a conceptual class should be a noun phrase.
+____: Using the sound/complete classification, if the user wishes {A, B, C}
+			then a specification {A, C} is sound.
+____: Using the sound/complete classification, if the user wishes {A, B, C}
+			then a specification {A, B, C, D} is complete.
+____: For each pair of sets (A,B) in a given domain model, there can be more 
+			than one relation between A and B in the domain model.
+____: For each pair of classes (A,B) in a given UML class diagram, there can be
+			more than one association (line) between A and B in the class diagram.
+
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+Question 2, max points = 50
+
+This is an open-ended question. Provide as much information as you can within 
+the time limit. Pick one use-case of your team project and develop it here.

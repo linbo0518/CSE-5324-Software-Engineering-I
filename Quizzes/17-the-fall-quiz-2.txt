@@ -1,0 +1,94 @@
+Name: __________________________________  ID: __________________________________
+
+CSE 3311, Fall 2017, Quiz 2
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+			
+				
+Question 1, max points = 10 * 5 = 50
+
+True or false?
+
+____: Joel's hallway usability testing (of the "Joel Test") requires a hallway.
+____: Each use-case consists of one success scenario and a possibly large 
+			number of failure scenarios ("extensions").
+____: Each use-case must have an actor.			
+____: Each extension of use-case U answers a "what if" question about U's main 
+			success scenario.
+____: An extension of use-case U may consist of more steps than U's main 
+			success scenario.
+____: When developing use-cases, the most important outcome are the use-case 
+			diagrams.
+____: A key technique for making a "soft" requirement testable is to define a
+			measurable response of a focus group.			
+____: In an iterative process, the first few iterations do not produce any 
+			code.
+____: In a UML class diagram domain model, a box represents a set variable.
+____: In a UML class diagram domain model, a line represents a relation 
+			variable.
+
+			
+			
+			
+			
+
+			
+
+			
+			
+			
+			
+			
+			
+			
+
+			
+			
+			
+Question 2, max points = 10 + 15 + 10 + 15 = 50
+
+(a) Briefly describe the two biggest concrete risks your team project is
+currently facing (up to 1 sentence each).
+
+
+
+
+
+
+
+
+(b) For the two risks you identified in (a), compute each risk's risk exposure. 
+Give each risk's effect E and risk exposure RE in terms of the number of extra 
+hours the team would have to spend if the risk became a reality. 
+
+
+
+
+
+
+
+
+
+
+
+(c) Justify your choices of E and RE briefly (one sentence each).
+
+
+
+
+
+
+
+
+(d) Briefly describe your plan for addressing each of the risks you identified 
+in (a), (up to 2 sentences each).
+
+
+
+

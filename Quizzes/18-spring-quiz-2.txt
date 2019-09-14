@@ -1,0 +1,96 @@
+Name: __________________________________  ID: __________________________________
+
+CSE 3311, Spring 2018, Quiz 2
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+			
+				
+Question 1, max points = 10 * 5 = 50
+
+True or false?
+
+
+
+____: Joel's hallway usability testing (of the "Joel Test") requires a hallway.
+____: The cost of fixing a bug depends on (among others) the points in time at 
+			which the bug was introduced into and removed from the software.
+____: A common synonym for the waterfall model is "iterative".
+____: The goal of iterative software development is to first fully design the
+			software and to then iterate between coding and testing.
+____: In large industrial software engineering, requirements are typically
+			fixed early on in the project and remain fixed.
+____: A typical customer in software engineering is comfortable expressing
+      requirements rigorously, e.g., in first-order logic.
+____: Creating UML diagrams is only cost-effective when done in a UML modelling
+			tool.
+____: A Java class containing 20 lines of source code can serve as a prototype 
+			of a large Android application.
+____: A simple web site can serve as a prototype of a large Python application.
+____: Any pair of stakeholders in a software development project may have 
+			conflicting goals on what the software should provide.
+
+			
+			
+			
+			
+			
+			
+
+			
+
+			
+			
+			
+
+
+
+			
+Question 2, max points = 10 + 15 + 10 + 15 = 50
+
+(a) Briefly describe the two biggest concrete risks your team project is
+currently facing (up to 1 sentence each).
+
+
+
+
+
+
+
+
+(b) For the two risks you identified in (a), compute each risk's risk exposure. 
+Give each risk's effect E and risk exposure RE in terms of the number of extra 
+hours the team would have to spend if the risk became a reality. 
+
+
+
+
+
+
+
+
+
+
+
+(c) Justify your choices of E and RE briefly (one sentence each).
+
+
+
+
+
+
+
+
+(d) Briefly describe your plan for addressing each of the risks you identified 
+in (a), (up to 2 sentences each).
+
+
+
+
+
+

@@ -1,0 +1,97 @@
+Name: __________________________________  ID: _______________________________
+
+Quiz 3, CSE 5324, April 2nd, 2014
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+
+
+Question 1, max points = 10 * 5 = 50
+
+True or false?
+
+_____: The goal of creating a domain model is to eventually map each set
+				of the domain model to a UI implementation class.
+_____: In GRASP, the Information Expert pattern means that a program 
+				specification should only be written by domain experts.
+_____: In GRASP, the Creator pattern says that every class X should have its
+				own dedicated factory class called XFactory.
+_____: A project is optimal with regards to coupling if it has zero coupling.
+_____: If versions v1 and v2 of a project only differ in the code of method 
+				E.z, E is a subclass of D, D.f contains a method call "z()", C.m calls 
+				D.f as in m(D d) { /*..*/ x = d.f(); /*..*/ }, and all methods are 
+				virtual (non-static, non-private, non-abstract), then the execution 
+				behavior of C.m may differ between v1 and v2.
+_____: A best practice in writing Java programs is to avoid using 
+				"instanceof".
+_____: A best practice in writing programs is to place each database query 
+				into the domain model class that is the most closely related to the 
+				query.
+_____: In object-oriented programming, interfaces can be used for information
+				hiding.
+_____: An instance field "A a" in class E may map an instance of E to at most
+				one instance of A.
+_____: An instance field can store a relation.
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+Question 2, max points = 20 + 10 + 20 = 50
+
+Draw a UML communication diagram that contains a single object. The type
+of the object is X and the name of the object is x. In addition to the x
+object, add elements to represent the following three items.
+(1) One call to method a, which has the signature "void a()".
+(2) One call to method b, which has the signature "void b()".
+(3) One call to method c, which has the signature "void c()".
+
+Design the communication diagram in such a way that it can be mapped to two 
+different Java implementations of the methods a, b, and c. That is, the 
+implementations should differ in who calls c:
+- In the first implementation, a calls c.
+- In the second implementation, b calls c.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Give an outline of the two different implementations in Java.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Now draw a new UML communication diagram that is similar to the previous one,
+except that the new diagram has additional elements to clarify that b calls c.

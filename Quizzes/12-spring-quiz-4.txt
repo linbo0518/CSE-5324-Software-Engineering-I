@@ -1,0 +1,69 @@
+Name: __________________________________
+ID: __________________________________
+
+
+Quiz 4, CSE 5324
+April 23, 2012
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+
+
+Question 1, max points = 25 (5 questions, 5 points each)
+
+Fill in each of the below ____ with the value returned by the method call 
+given after the == operator.
+				
+public class C 					 { 	public int foo(C p) { return 1; } }
+public class D extends C { 	public int foo(C p) { return 2; }
+														public int foo(D p) { return 3; } }
+public class E extends D {	public int foo(E p) { return 4; } }
+/* .. */ 
+C d = new D(); 
+C e = new E(); 
+D f = new E();
+____ == e.foo(d)
+____ == e.foo(e)
+____ == e.foo(f)
+____ == f.foo(e)
+____ == f.foo(f)
+
+
+Question 2, max points = 50 (10 questions, 5 points each)
+
+True or false?
+
+____: The class project is designed to closely follow the waterfall model.
+____: The goal of the "coupling" GRASP pattern is to maximize coupling.
+____: Java programs can contain kinds of coupling that are not possible in 
+			C programs.
+____: The maintainability of object-oriented code can be improved by replacing
+			"instanceof" expressions with subtype polymorphism.
+____: Design-by-Contract means that software developers have to sign a legal
+			contract for each code unit they implement.
+____: Design-by-Contract is an academic idea that to date has been ignored
+			by major software companies such as Microsoft.
+____: Design-by-Contract was developed to support outsourcing of software
+			development tasks, as outsourcing typically requires a legal contract.
+____: In Design-by-Contract, the preconditions P of a method M are useful
+			in the development of both the body of M and the callers of M.
+____: In Design-by-Contract, the postconditions Q of a method M are useful
+			in the development of both the body of M and the callers of M.
+____: To support Design By Contract and sub-contracting, it would make sense
+			for a language to allow co-variant type change for return values.
+				
+				
+Question 3, max points = 25
+
+This is an open-ended question. Provide as much information as you
+can within the time limit. Pick one use-case of your team project and
+develop it here.
+
+
+
+

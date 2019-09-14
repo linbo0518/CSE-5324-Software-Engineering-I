@@ -1,0 +1,99 @@
+Name: __________________________________
+ID: __________________________________
+
+
+Quiz 2, CSE 5324
+Tuesday, October 19, 2010
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+
+
+Question 1, max points = 60
+
+True or false?
+
+_____: Each class in a UML class diagram represents a class in an
+				object-oriented program.
+_____: An operation contract defines the pre- and post-conditions of a
+				step in a use-case scenario.
+_____: Operation contracts are part of the design (they are not part
+				of the requirements).
+_____: Operation contracts are not directly related to the domain model.
+_____: Operation contracts must be expressed in first-order logic.
+_____: UML packages can only be used in UML package diagrams.
+_____: Name-spaces are typically organized in a tree-structure.
+_____: Name-spaces allow one to reuse the same simple name for 
+				different elements.
+_____: The Apache Ant build management tool presented in class is rarely
+				used in Java development projects.				
+_____: The design class diagram is the most important element of a 
+				software design because it includes all the information that is
+				contained in the dynamic design models.
+_____: A guard in a sequence diagram enables the guarded method call 
+				to proceed under any circumstances.
+_____: A box in a communication diagram represents the same amount of
+				items as the corresponding box in a domain model.
+_____: A box in a communication diagram represents the same amount of
+				items as the corresponding box in a sequence diagram.
+_____: An advantage of UML sequence diagrams over UML communication
+				diagrams is that they are more compact.
+_____: Guards in communication diagrams are stronger than guards in 
+				sequence diagrams.
+_____: The Rational Rose modeling tool presented in class is open source
+				software and freely available to all students of CSE 5324.				
+_____: Relations in a domain model are typically represented as 
+				operations in a UML class diagram.
+_____: Operations in a UML class diagram are typically represented as 
+				methods in object-oriented source code.
+_____: Multiplicity constraints are important in a domain model but they
+				cannot influence the resulting source code.
+_____: Android software development is only possible in the Eclipse IDE.
+
+
+
+Question 2, max points = 20
+
+You are designing a system that manages software development teams. 
+You have identified three important groups of stakeholders: 
+project managers, developers, and testers. Draw a domain model as a UML 
+class diagram that contains a single class. This class will represent
+all stakeholders. Now add to the diagram additional elements to represent 
+project managers, developers, and testers and the way they are related to 
+the stakeholder class.
+
+
+
+
+
+Now convert your domain model to Java code. I.e., outline the Java class 
+or interface definitions that ensure that a tester cannot be a developer 
+and vice versa.
+
+
+
+
+
+Now do another Java code outline, in which a developer may also be a
+tester.
+
+
+
+
+
+Question 3, max points = 20
+
+Draw a UML sequence diagram that involves the following:
+- One call to a method named a.
+- One call to a method named b.
+- One call to a method named c.
+Design the diagram in such a way that it can be mapped to two different
+Java implementations of the methods a, b, and c:
+- In the first implementation, a calls c.
+- In the second implementation, b calls c.
+Give an outline of the two different implementations.

@@ -1,0 +1,63 @@
+Name: __________________________________
+ID: __________________________________
+
+
+Quiz 4, CSE 5324
+December 7th, 2011
+
+Question 1, max points = 50 (10 questions, 5 points each)
+
+True or false?
+
+Example Question
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+
+____: Method overloading is best explained as sub-contracting.
+____: In Design by Contract a given condition C1 can be both a requirement
+			for the caller and an assumption for the called method.
+____: In Design by Contract a given condition C2 can be both a requirement
+			for the called method and an assumption for the caller.
+____: Sub-contracting in Design by Contract allows a sub-contractor to place
+			additional requirements on the client.
+____: To support Design By Contract and sub-contracting, it would make sense
+			for a language to allow co-variant type change for method parameters.
+____: To support Design By Contract and sub-contracting, it would make sense
+			for a language to allow co-variant type change for method return values.
+____: In Java, method overriding is fully resolved by the compiler, the runtime
+			system does not have to take any additional actions.
+____: In Java, method overloading cannot be fully resolved by the compiler, the
+			runtime system has to take additional actions.
+____: In Java, there can be many ways to implement a given design pattern.
+____: If class C is developed by a third party and you want to extend the
+			functionality of C in a new class D, then it is best for D to extend C.
+
+			
+Question 2, max points = 25 (5 questions, 5 points each)
+
+Fill in each of the below ____ with the value returned by the method call 
+given after the == operator.
+				
+public class C 					 { 	public int foo(C p) { return 1; } }
+public class D extends C { 	public int foo(D p) { return 2; } }
+public class E extends D { 	public int foo(E p) { return 3; } }
+/* .. */ 
+  C c = new C(); C d = new D(); C e = new E();
+  D f = new D(); D g = new E(); E h = new E();
+____ == d.foo(c)
+____ == d.foo(d)
+____ == e.foo(e)
+____ == g.foo(g)
+____ == g.foo(h)
+				
+				
+Question 3, max points = 25
+
+This is an open-ended question. Provide as much information as you
+can within the time limit. Pick one use-case of your team project and
+develop it here.
+
+
+
+

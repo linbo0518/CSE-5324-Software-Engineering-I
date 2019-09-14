@@ -1,0 +1,71 @@
+Name: __________________________________
+ID: __________________________________
+
+
+Quiz 4, CSE 5324
+April 24th, 2013
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+
+
+
+Question 1, max points = 5 * 5 = 25
+
+Fill in each of the below ____ with the value returned by the method call 
+given after the == operator.
+				
+public class C 					 { 	public int foo(C p) { return 1; } 
+														public int foo(E p) { return 2; } }
+public class D extends C { 	public int foo(C p) { return 3; }
+														public int foo(D p) { return 4; } }
+public class E extends D {	public int foo(E p) { return 5; } }
+/* .. */ 
+C d = new D(); 
+C e = new E(); 
+D f = new E();
+____ == e.foo(d)
+____ == d.foo(e)
+____ == d.foo(f)
+____ == f.foo(e)
+____ == f.foo(f)
+
+
+Question 2, max points = 10 * 5 = 50
+
+True or false?
+
+____: The goal of the "cohesion" GRASP pattern is to maximize cohesion.
+____: Java programs can contain kinds of coupling that are not possible in 
+			C programs.
+____: A given design pattern is always best implemented using the same 
+			language constructs in all object-oriented programming languages 
+			(Java, C++, etc.)
+____: Moving a set S of classes from using implementation inheritance to
+			using composition can reduce coupling within S.
+____: If class Dog extends class Animal then a future (different) version 
+			of the Animal class can break the code in Dog.
+____: In Design by Contract sub-contracting a sub-contractor may place 
+			additional requirements on the clients of the original contractor.
+____: In Design by Contract sub-contracting the pre-condition of the
+			original contractor must imply the pre-condition of the			
+			sub-contractor.
+____: In Design by Contract sub-contracting the post-condition of the
+			sub-contractor must imply the post-condition of the original 
+			contractor.
+____: If class B extends class A, then, in the sense of method overloading,
+			method foo(A,B,B) is more specific than method foo(B,A,A).
+____: If class B extends class A, then, in the sense of method overloading,
+			method foo(B,B) is more specific than method foo(A).
+
+
+Question 3, max points = 25
+
+This is an open-ended question. Provide as much information as you can
+within the time limit. Pick one use-case of your team project and develop
+it here.

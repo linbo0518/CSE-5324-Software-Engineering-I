@@ -1,0 +1,97 @@
+Name: __________________________________  ID: __________________________________
+
+CSE 3311, Fall 2018, Quiz 4
+
+
+Example Question: True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+			
+				
+Question 1: True or false? (max points = 10 * 5 = 50)
+
+____: A box in a communication diagram represents the same amount of
+			items as the corresponding box in a domain model.
+____: Information hiding means that we should hide int values by storing them 
+			as floating point numbers.
+____: In the context of the below class definitions, method match(Drawable) in 
+			class Square overloads the match(Square) method in Square.
+____: In the below setup, method match(Drawable) in class Square overloads the 
+			match(Rectangle) method that Square inherits from Rectangle.			
+____: In the below setup, the method signature match(AShape) is more specific 
+			than match(Drawable) -- in the sense of method overloading.
+____: In the below setup, in method overloading method signature 
+			foo(Square,Square,AShape) is more specific than 
+			foo(Drawable,Drawable,Square).						
+____: In the below setup, method match(Drawable) in class Square overrides
+			match(Drawable) in AShape.			
+____: In the below setup, method match(Square) in class Square overrides
+			match(Rectangle) in Rectangle.		
+____: In Java, the Java compiler can resolve method overloading.			
+____: In Java, the Java compiler can resolve method overriding.
+			
+public class Drawable 
+{ 	
+	public int match(Drawable p) 	{ /* .. */ } 
+}
+public class AShape extends Drawable 
+{ 	
+	public int match(Drawable p) 	{ /* .. */ }
+	public int match(AShape p) 		{ /* .. */ } 
+}
+public class Rectangle extends AShape 
+{	
+	public int match(AShape p) 		{ /* .. */ }
+	public int match(Rectangle p)	{ /* .. */ } 
+}
+public class Square extends Rectangle 
+{	
+	public int match(Drawable p) 	{ /* .. */ }
+	public int match(Square p) 		{ /* .. */ } 
+}			
+			
+Question 2, max points = 10 * 5 = 50
+
+Consider the below excerpt of a Java program. Fill in each of the blanks 
+(____) with the value returned by the method call that is given after the 
+== operator.
+				
+public class Drawable 
+{ 	
+	public int match(Drawable p) 	{ return 1; } 
+}
+public class AShape extends Drawable 
+{ 	
+	public int match(Drawable p) 	{ return 2; }
+	public int match(AShape p) 		{ return 3; } 
+}
+public class Rectangle extends AShape 
+{	
+	public int match(AShape p) 		{ return 4; }
+	public int match(Rectangle p)	{ return 5; } 
+}
+public class Square extends Rectangle 
+{	
+	public int match(Drawable p) 	{ return 6; }
+	public int match(Square p) 		{ return 7; } 
+}
+/* .. */ 
+Drawable d1 = new AShape(); 
+Drawable d2 = new Rectangle(); 
+Drawable d3 = new Square();
+AShape d4   = new AShape();
+AShape d5   = new Rectangle();
+AShape d6   = new Square();
+
+____ == d3.match(d4)
+____ == d4.match(d3)
+____ == d2.match(d2)
+____ == d2.match(d1)
+____ == d1.match(d2)
+
+____ == d6.match(d6)
+____ == d5.match(d4)
+____ == d4.match(d5)
+____ == d5.match(d3)
+____ == d3.match(d5)

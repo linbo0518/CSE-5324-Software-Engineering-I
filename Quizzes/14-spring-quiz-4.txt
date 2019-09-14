@@ -1,0 +1,62 @@
+Name: __________________________________  ID: _______________________________
+
+Quiz 4, CSE 5324, April 23, 2014
+
+
+Example Question: True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+
+
+Question 1, max points = 5 * 5 = 25
+
+Fill in each of the five blanks (____) below with the value returned by the
+method call that is given after the == operator.
+				
+public class C 					 { 	public int foo(C p) { return 1; } }
+public class D extends C { 	public int foo(C p) { return 2; }
+														public int foo(E p) { return 3; } }
+public class E extends D {	public int foo(C p) { return 4; }
+														public int foo(E p) { return 5; } }
+/* .. */ 
+C x = new D(); 
+C y = new E(); 
+D z = new E();
+____ == y.foo(x)
+____ == x.foo(y)
+____ == x.foo(z)
+____ == z.foo(y)
+____ == z.foo(z)
+
+
+Question 2, max points = 10 * 5 = 50: True or false?
+
+____: Design by Contract as discussed in class means that an agile team
+			should only start designing an application once the customer has 
+			signed the contract for the project.
+____: In Design by Contract sub-contracting a sub-contractor may place 
+			additional requirements on the clients of the original contractor.
+____: Method overloading in Java is resolved before method overriding.
+____: Method overriding in Java can be resolved by the Java compiler.
+____: If class B extends class A, then, in the sense of method 
+			overloading, method foo(B,X) is more specific than method foo(A,X).
+____: If interface B extends interface A, then, in the sense of method 
+			overloading, method foo(B,X) is more specific than method foo(A,X).
+____: Java programs can contain kinds of coupling that are not possible in 
+			C programs.
+____: If class Dog extends class Animal then a future (different) version 
+			of the Animal class can break the code in Dog.
+____: For a realistic application, software testing typically tests all 
+			behaviors of an application.
+____: All bugs have been found and fixed in widely used software products
+			such as Microsoft Windows or the Linux kernel.
+				
+				
+				
+Question 3, max points = 25
+
+This is an open-ended question. Provide as much information as you can
+within the time limit. Pick one use-case of your team project and develop
+it here.
+

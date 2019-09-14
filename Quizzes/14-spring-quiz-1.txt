@@ -1,0 +1,97 @@
+Name: __________________________________
+ID: __________________________________
+
+
+Quiz 1, CSE 5324
+February 12th, 2014
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+
+
+Question 1, max points = 15 * 4 = 60
+
+True or false?
+
+_____: Copying a sentence from a web site into your homework solution is
+				always plagiarism.
+_____: You insert into your class presentation a few figures you found on 
+				the web. Adding a slide titled "References" at the end of your 
+				presentation and listing the source web sites there is enough to 
+				avoid plagiarism.
+_____: {a, b, b, a} is the same set as {b, a, a, b}.
+_____: (a, b, b, a) is the same tuple as (b, a, a, b).
+_____: {a, b} is an element of {b, a, a, b}.
+_____: {(a, b)} is a relation on set {a, b, b, a}.
+_____: ({a, b}) is a relation on set {a, b, c}.
+_____: If a directed graph has nodes {A, B, C} and contains a single edge, 
+				which originates at node A and terminates at node A, then the 
+				graph's edges cannot be represented truthfully as a binary relation
+				on the graph's nodes.
+_____: Software engineering practice is currently subject to stricter 
+				government regulations than other engineering disciplines such as 
+				civil engineering.
+_____: Studies have shown that every software company is using UML for
+				software design and specification.				
+_____: Software development tools such as profilers are of great academic 
+				interest, but they are not used in practice.
+_____: A best practice for conducting software reviews is that authors
+				resolve any found bugs by explaining them to the reviewers.
+_____: A best practice for conducting software reviews is to not use
+				check-lists as they could distract reviewers.
+_____: If a reviewer cannot understand a part of a reviewed document then
+				the document should be changed to make it easier to understand.
+_____: A project that uses iterative development may still produce a lot of
+				documentation, such as extensive specification and design documents.
+				
+
+				
+				
+				
+Question 2, max points = 20 + 10 + 10 = 40
+
+(a) Briefly describe the four biggest risks your team project is currently 
+facing.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(b) Rank the four risks in (a) and briefly explain below why you ranked the 
+risks in the order you chose.
+
+
+
+
+
+
+
+
+
+
+(c) Explain what would be the best time and best strategy for addressing the
+biggest risk from your ranking in (b).
+
+
+

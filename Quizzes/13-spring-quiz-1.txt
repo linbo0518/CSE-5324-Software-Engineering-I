@@ -1,0 +1,62 @@
+Name: __________________________________
+ID: __________________________________
+
+
+Quiz 1, CSE 5324
+February 6th, 2013
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+
+
+Question 1, max points = 15 * 4 = 60
+
+True or false?
+
+_____: Software development tools such as automated test execution systems
+				are of great academic interest, but they are not used in practice.
+_____: The cost of fixing a bug depends on the points in time at which the
+				bug was introduced into and removed from the software.
+_____: The waterfall model is often described as "iterative".
+_____: The goal of iterative software development is to first fully design 
+				the software and to then iterate between coding and testing.
+_____: It has been scientifically proven that using object-oriented 
+				techniques always leads to higher quality software than using other
+				approaches such as procedural programming techniques.
+_____: It has been scientifically proven that using UML always leads to 
+				higher quality software than using other approaches such as 
+				proprietary specification languages.
+_____: In large industrial software engineering, requirements are typically 
+				fixed early on in the project and remain fixed.
+_____: A typical customer in software engineering is comfortable expressing
+        requirements rigorously, e.g., in first-order logic.
+_____: Creating UML diagrams is only cost-effective when done in a UML
+				modeling tool.
+_____: A Java class containing 20 lines of source code can serve as a 
+				prototype of a large Android application.
+_____: A web site can serve as a prototype of a large Android application.
+_____: Any pair of stakeholders in a software development project may have 
+				conflicting goals on what the software should provide.
+_____: In hindsight, the main reason for the success of UML is that UML had
+				a rigorous definition early on.
+_____: Copying a sentence from a web site into your homework solution is
+				always plagiarism.
+_____: You insert into your class presentation a few slides from a slide set
+				you found on the web. Adding a slide titled "References" at the end 
+				of your presentation and listing the web site there is enough to 
+				avoid plagiarism.
+
+				
+				
+
+Question 2, max points = 40
+
+Briefly describe the three biggest risks your team project is currently 
+facing. Pick one of these risks and describe it in more detail. How likely 
+is it that this risk becomes a reality? What are you doing to reduce
+this risk?

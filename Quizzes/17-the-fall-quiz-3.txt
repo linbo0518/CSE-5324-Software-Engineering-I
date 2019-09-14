@@ -1,0 +1,100 @@
+Name: __________________________________  ID: __________________________________
+
+CSE 3311, Fall 2017, Quiz 3
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+			
+				
+Question 1, max points = 10 * 5 = 50
+
+True or false?
+
+____: A best practice in software design is information hiding.
+____: Information hiding in software engineering means that a developer does 
+			not check in any source code into the team repository.
+____: A best practice in designing an object-oriented application is to 
+			minimize the number of interfaces the application has.
+____: The name A::B is an example of a simple name in the UML package notation.
+____: The best software architecture for every application consists of seven 
+			layers.			
+____: A relation that is not a function cannot be implemented in code.
+____: In object-oriented programming, a relation that is not a function cannot 
+			be implemented as an instance field.
+____: A box in a sequence diagram typically represents an object.
+____: A box in a communication diagram typically represents an object.
+____: A guard in a sequence diagram prevents the guarded method call 
+			from occurring under any circumstances.			
+
+			
+			
+
+
+
+
+
+			
+			
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+Question 2, max points = 20 + 10 + 10 + 10 = 50
+
+(a) Draw a UML communication diagram that involves the following:
+- One call to a method named a.
+- One call to a method named b.
+- One call to a method named c.
+Design the diagram in such a way that it can be mapped to two different
+Java implementations of the methods a, b, and c:
+- In the first implementation, a calls c.
+- In the second implementation, b calls c.
+
+
+
+
+
+
+
+
+
+
+(b) Give an outline of the first implementation in Java-style pseudo code 
+(where: a calls c).
+
+
+
+
+
+
+
+
+
+
+(c) Give an outline of the second implementation in Java-style pseudo code
+(where: b calls c).
+
+
+
+
+
+
+
+
+
+
+(d) Now draw a new UML communication diagram that is similar to the previous 
+one, except that the new diagram has additional elements to clarify that 
+b calls c.

@@ -1,0 +1,104 @@
+Name: __________________________________
+ID: __________________________________
+
+
+Quiz 3, CSE 5324
+Monday, April 4th, 2011
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+
+
+Question 1, max points = 45
+
+True or false?
+
+____: Operation contracts are not directly related to the domain model.
+____: Name-spaces are typically organized in a tree-structure.
+____: Name-spaces allow one to reuse the same simple name for 
+			different elements.
+____: A popular architecture consists of multiple layers, among them is a
+			UI layer and an application logic layer.
+____: A box in a communication diagram represents the same amount of
+			items as the corresponding box in a domain model.
+____: A box in a communication diagram represents the same amount of
+			items as the corresponding box in a sequence diagram.
+____: Guards in communication diagrams are stronger than guards in 
+			sequence diagrams.
+____: The design class diagram is the most important element of a 
+			software design because it includes all the information that is
+			contained in the dynamic design models.	
+____: A relation that is not a function cannot be represented in a
+			design class diagram.
+____: A relation that is not a function cannot be implemented in code.
+____: In Software Engineering, the terms "relation" and "function" are 
+			synonyms.
+____: If set I contains elements a, b, c, then the following is a 
+			(mathematical) binary function on I: {(a,b), (a,c), (b,c)}.
+____: In an object-oriented program, an instance field can be understood as
+			a map (a mathematical function) from instance values to field values.
+____: If in the domain model each element of conceptual class A is related
+			with n elements of conceptual class B, and each element of B with
+			one element of A, then we can express this in Java code as 
+			"class A {B b;}".
+____: If in the domain model each element of conceptual class A is related
+			with n elements of conceptual class B, and each element of B with
+			one element of A, then we can express this in Java code as 
+			"class B {A a;}".				
+
+
+Question 2, max points = 30
+
+You are designing a system that manages college courses. You have identified
+two important concepts: students and courses. We also know that each student 
+takes up to 6 courses and each course is taken by at least 10 students.
+Draw a domain model as a UML class diagram that represents these two 
+concepts and the "takes" relation between them. 
+
+
+
+
+
+Now convert the domain model into a design class diagram. Take into account
+that, in the code, we will need to navigate from a course to the 
+participating students, but not the other way around.
+
+
+
+
+
+Now convert the design class diagram into Java classes. You may limit
+your answer to a minimal outline that just represents the concepts 
+discussed above.
+
+
+
+
+
+
+
+Question 3, max points = 25
+
+Draw a UML sequence diagram that involves the following:
+- One call to a method named a.
+- One call to a method named b.
+- One call to a method named c.
+Design the diagram in such a way that it can be mapped to two different
+Java implementations of the methods a, b, and c:
+- In the first implementation, a calls c.
+- In the second implementation, b calls c.
+
+
+
+
+
+
+
+
+Give an outline of the two different implementations.
+

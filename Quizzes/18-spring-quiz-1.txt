@@ -1,0 +1,99 @@
+Name: __________________________________  ID: __________________________________
+
+CSE 3311, Spring 2018, Quiz 1
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+			
+				
+Question 1, max points = 10 * 5 = 50
+
+True or false?
+
+The first question is almost verbatim from the plagiarism homework.
+
+____: Since Wikipedia articles do not have an author listed and can be edited 
+			by anyone, you do not need to cite them as a source when copying text 
+			from a Wikipedia article into your slides.
+____: Copying a sentence from a web site into your project report is always 
+			plagiarism.
+____: You insert into your project report an image you found on the web. 
+			Adding a section titled "References" at the end of your report and 
+			listing the web site there is enough to avoid plagiarism.			
+____: A core task of the reviewers in a Fagan inspection is to provide detailed 
+			improvement suggestions as part of their review.			
+____: Fagan inspections are most cost-effective if they are only performed at 
+			the end of a project.			
+____: Fagan inspections are a general defect finding technique and can 
+			successfully be applied to documents outside a software development project.
+____:	If a design document describes features that are not part of the 
+			project requirements then this is not considered a problem, as the 
+			customer will get additional features and everyone will be happy.
+____: In a software project, a good vision statement excludes things that 
+			should not be part of the project.
+____: In a software project, a good vision statement should be exclusive, which
+			means it should only be shared among project managers.
+____: Mock screenshots (UI prototypes) created with pencil and paper can be 
+			a better choice at a certain point in a software development project than 
+			UI prototypes created with dedicated prototyping software.
+
+
+			
+			
+			
+			
+			
+			
+
+			
+Question 2, max points = 10 + 15 + 10 + 10 + 5 = 50
+
+(a) Briefly describe the two main activities of the original Fagan inspection 
+process (up to 1 sentence each).
+
+
+
+
+
+
+
+
+(b) Briefly describe the three defect severity levels "major", "minor", and
+"open issue" of the original Fagan inspection process (up to 1 sentence each).
+
+
+
+
+
+
+
+
+
+(c) Briefly describe why Fagan inspections are not considered to be the best 
+choice for finding problems in requirements documents (up to 2 sentences).
+
+
+
+
+
+
+
+
+
+(d) Briefly describe a kind of defect that should never be produced by a Fagan 
+inspection or review (up to 1 sentence).
+
+
+
+
+
+
+(e) Give a brief reasoning about why the defect kind of sub-question (d) should 
+be excluded from Fagan inspections and reviews (one sentence).
+
+

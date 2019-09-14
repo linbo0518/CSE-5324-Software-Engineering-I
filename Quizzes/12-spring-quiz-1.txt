@@ -1,0 +1,54 @@
+Name: __________________________________
+ID: __________________________________
+
+
+Quiz 1, CSE 5324
+Monday, February 13th, 2012
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+
+
+Question 1, max points = 15 * 4 = 60
+
+True or false?
+
+_____: Software development tools such as build systems are of great 
+				academic interest, but they are not used in practice.
+_____: A software bug can lead to a financial loss of USD 500 million.
+_____: The cost of fixing a bug depends on the points in time at which the
+				bug was introduced into and removed from the software.
+_____: The waterfall model aims at producing code before all requirements 
+				are fully analyzed.
+_____: The waterfall model is often described as "iterative".
+_____: Understanding the requirements is a minor detail in software 
+				engineering and should always be delayed to late in the project.
+_____: The goal of iterative software development is to first fully design 
+				the software and to then iterate between coding and testing.
+_____: It has been scientifically proven that, for small to medium projects, 
+				iterative software development always leads to better results
+				than the waterfall model.
+_____: In large industrial software engineering, requirements are typically 
+				fixed early on in the project and remain fixed.
+_____: Using the sound/complete classification, if the user wishes A, B, C, 
+				and D, a specification that consists of A and D is sound.
+_____: A good use case is one that is short, about one paragraph of text.
+_____: In industrial practice, a specification must be in the form of a UML
+				use-case model.
+_____: Each class in a UML class diagram represents a class in an
+				object-oriented program.
+_____: Some Android applications can be coded in HTML and JavaScript.
+_____: A prototype of an Android application can be created without any
+				programming.
+
+
+Question 2, max points = 40
+
+This is an open-ended question. Provide as much information as you
+can within the time limit. Pick one use-case of your team project and
+develop it here.

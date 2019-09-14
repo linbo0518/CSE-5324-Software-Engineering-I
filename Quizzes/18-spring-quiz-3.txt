@@ -1,0 +1,104 @@
+Name: __________________________________  ID: __________________________________
+
+CSE 3311, Spring 2018, Quiz 3
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+			
+				
+Question 1, max points = 10 * 5 = 50
+
+True or false?
+
+____: A relation is a set of tuples.
+____: Domain models can be explained in terms of sets, relations, and 
+			constraints on sets and relations.
+____: The UML class diagram domain model shows each relation as an attribute
+			of a class (box).
+____: The method described in class maps each domain model relation to an
+			instance field (where we model an instance field as a Mathematical 
+			function).
+____: A m:n relation in the domain model (which is not a function) cannot be 
+			implemented as an instance field.			
+____: For each pair of classes (A,B) in a UML class diagram, there can be more 
+			than one line (association) between A and B.
+____: For each class C in a UML class diagram, there can be a line (association) 
+			from C to C.
+____: In a UML class diagram a type such as a class can have several supertypes.
+____: In a UML class diagram a subtype inherits the associations of all of its 
+			supertypes.
+____: One goal of creating a system sequence diagram is to identify the public 
+			API of the software system.	
+			
+			
+			
+			
+			
+
+			
+
+			
+			
+			
+			
+			
+
+
+
+			
+Question 2, max points = 15 + 15 + 10 + 10 = 50
+
+You are designing a system that manages a library. You have identified the 
+following kinds of library items: books, periodicals, and DVDs.
+
+(a) Draw a domain model as a UML class diagram that contains a single type. 
+This type will represent all library items. Now add to the diagram additional 
+elements to represent books, periodicals, and DVDs and the way they are related 
+to the item type. Enforce in your class diagram that each item is either a 
+book, a periodical, or a DVD.
+
+
+
+
+
+
+
+
+
+
+(b) Now convert your domain model to Java code skeletons.
+
+
+
+
+
+
+
+
+
+(c) A few days later you realize that your library will also have to manage a 
+variety of other library items that are similar to books, periodicals, and 
+DVDs, but do not fit any of these three kinds. You plan to make a single change 
+to your UML class diagram to allow for any such items. Draw an updated version 
+of your UML class diagram domain model.
+
+
+
+
+
+
+
+
+
+
+(d) Convert your updated domain model to Java code skeletons.
+
+
+
+
+

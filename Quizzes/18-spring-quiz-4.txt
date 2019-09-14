@@ -1,0 +1,103 @@
+Name: __________________________________  ID: __________________________________
+
+CSE 3311, Spring 2018, Quiz 4
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+			
+				
+Question 1, max points = 10 * 5 = 50
+
+True or false?
+
+public class C 					 { 	public int foo(C p) { return 1; } }
+public class D extends C { 	public int foo(D p) { return 2; }
+														public int foo(E p) { return 3; } }
+public class E extends D { 	public int foo(C p) { return 4; }	}
+class X { /*..*/ C c = new C(); C d = new D(); C e = new E(); }
+
+____: d.foo(c) == 1
+____: d.foo(d) == 2
+____: d.foo(e) == 3
+____: e.foo(d) == 3
+____: e.foo(e) == 4
+____: Method overloading can only be resolved at program runtime.
+____: In method overloading, foo(E) is more specific than foo(C).
+____: In method overloading, foo(C,int) is more specific than foo(C).
+____: If each class in an object-oriented application has high cohesion, then
+			coupling between classes is zero.
+____: To support Design By Contract and sub-contracting, it would make sense 
+			for a language to allow co-variant type change for method return types.
+			
+			
+			
+
+
+
+			
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+Question 2, max points = 15 + 15 + 10 + 10 = 50
+
+Assume you have just implemented the below class A in an object-oriented 
+programming language.
+
+public class A {
+  /* .. */
+	public int foo(int p) { /* .. */ }
+}
+
+(a) In the sense of Bertrand Meyer's Design by Contract you plan to use class A
+as a contractor. You also plan to create a sub-contractor of class A, i.e., 
+class B. Give the outline of class B below, in the style used for class A above.
+Clearly state the programming language you are designing your code for. If
+necessary for your language choice, you may make changes to class A above. Just
+document these changes clearly.
+
+
+
+
+
+
+
+(b) Assume the contract of A.foo is that it is designed to accept p values
+that are larger than 10 and for such values will return non-negative values.
+Sketch a contract for A.foo in terms of Design by Contract that expresses this.
+
+
+
+
+
+
+
+
+
+(c) You plan to make sure that your class B is a good sub-contractor. Express 
+below which rules class B has to satisfy to be a good sub-contractor in terms 
+of Design by Contract.
+
+
+
+
+
+
+
+(d) Give an example contract for class B.foo that ensures that class B is 
+indeed a good sub-contractor.
+
+
+

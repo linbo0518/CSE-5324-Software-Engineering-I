@@ -1,0 +1,83 @@
+Name: __________________________________
+ID: __________________________________
+
+
+Quiz 3, CSE 5324
+November 7th, 2011
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+
+
+Question 1, max points = 15 * 4 = 60
+
+True or false?
+
+____: An operation contract can be added to each step of a system 
+			sequence diagram.
+____: Operation contracts can be used to describe state changes in the
+			domain model sets and relations.
+____: The fact that a domain model relation does not contain a certain
+			tuple is a valid operation contract post-condition.
+____: The fact that a domain model relation does not contain a certain
+			tuple is a valid operation contract pre-condition.			
+____: The fact that a constraint that was in the original domain model 
+			has now been removed from the domain model is a valid operation 
+			contract post-condition.
+____: Name-spaces are typically organized in a tree-structure.
+____: Name-spaces allow one to reuse the same simple name for 
+			different elements.
+____: Information hiding means that we should hide numerical values
+			by storing them as strings.
+____: The best way to hide information in a program is to use
+			aspect-oriented programming.
+____: A relation that is not a function cannot be implemented in Java.
+____: A 1:1 relation in the domain model may be implemented in code
+			as an instance field.
+____: A box in a communication diagram represents the same amount of
+			items as the corresponding box in a domain model.
+____: The class diagram is the most important element of a software 
+			design as it includes all the information that is contained in 
+			the dynamic design models.	
+____: A relation that is not a function cannot be represented in a
+			design class diagram.
+____: In an object-oriented program, an instance field can be understood as
+			a map (a mathematical function) from field values to instance values.
+
+
+
+
+Question 2, max points = 40
+
+Draw a single UML sequence diagram that involves the following:
+- One call to a method named a.
+- One call to a method named b.
+- One call to a method named c.
+Method a is defined by class C1, method c is defined by class C2.
+Class C1 is not a subtype of C2; C2 is not a subtype of C1.
+Design the diagram in such a way that it can be mapped to two different
+Java implementations of the methods a, b, and c:
+- In the first implementation, a calls c.
+- In the second implementation, b calls c.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Give an outline of the two different implementations. I.e., show the
+Java code outline of the involved classes and methods.
+

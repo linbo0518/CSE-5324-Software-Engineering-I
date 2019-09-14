@@ -1,0 +1,92 @@
+Name: __________________________________
+ID: __________________________________
+
+
+Quiz 3, CSE 5324
+March 28th, 2012
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+
+
+Question 1, max points = 60
+
+True or false?
+
+____: The design class diagram is the most important element of a 
+			software design because it includes all the information that is
+			contained in the dynamic design models.
+____: A box in a sequence diagram typically represents an object.
+____: A guard in a sequence diagram prevents the guarded method call 
+			from occurring under any circumstances.
+____: Designing for visibility means that it is best to make methods
+			public.
+____: An advantage of UML communication diagrams over UML sequence
+			diagrams is that they are more compact.
+____: Guards in communication diagrams are stronger than guards in 
+			sequence diagrams.
+____: A relation that is not a function cannot be represented in a
+			design class diagram.
+____: A relation that is not a function cannot be implemented in code.
+____: Each function is a relation.
+____: Each relation is a function.
+____: In an object-oriented program, an instance field can be understood as
+			a map (a mathematical function) from field values to instances.
+____: Calls to a static method cannot be shown in a UML sequence diagram.
+____: Any UML sequence diagram is fully precise in the sense that all programs
+			derived from the diagram will produce the same results for all inputs.
+____: Any UML communication diagram is fully precise in the sense that all 
+			programs derived from the diagram will produce the same results for all 
+			inputs.
+____: Frequent use of the instanceof operator is an indicator for an object-
+			oriented design of a high quality.
+
+
+
+			
+			
+			
+Question 2, max points = 40
+
+Draw a UML communication diagram that involves the following:
+- One call to a method named a.
+- One call to a method named b.
+- One call to a method named c.
+Design the diagram in such a way that it can be mapped to two different
+Java implementations of the methods a, b, and c:
+- In the first implementation, a calls c.
+- In the second implementation, b calls c.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Give an outline of the two different implementations in Java.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Now draw a new UML communication diagram that is similar to the previous one,
+except that the new diagram has additional elements to clarify that b calls c.

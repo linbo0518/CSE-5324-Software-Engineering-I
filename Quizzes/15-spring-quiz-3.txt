@@ -1,0 +1,98 @@
+Name: __________________________________
+ID: __________________________________
+
+
+Quiz 3, CSE 5324
+April 8, 2015
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+
+
+Question 1, max points = 15 * 3 = 45
+
+True or false?
+
+____: Each class in a UML class diagram represents a class in an
+			object-oriented program.
+____: An operation contract defines the pre- and post-conditions of a step in a 
+			use-case scenario.
+____: Operation contracts are not directly related to the domain model.
+____: Operation contracts must be expressed in first-order logic.
+____: UML packages cannot be used in UML class diagrams.
+____: In our context of UML and Java, name-spaces are typically organized in a 
+			non-tree graph-structure.
+____: Name-spaces allow one to reuse the same simple name for different 
+			elements.
+____: The dynamic design models are the most important element of a software 
+			design because they also include all the information that is contained in 
+			the static design models.
+____: A guard in a sequence diagram prevents execution of the guarded method 
+			call to proceed under any circumstances.
+____: A m:n relation in the domain model can be mapped to a primitive field in 
+			object-oriented code (e.g., an int field in Java).			
+____: A box in a communication diagram represents the same amount of items as 
+			the corresponding box in a domain model.
+____: An advantage of UML communication diagrams over UML sequence diagrams is 
+			that they show more code structure.
+____: Guards in sequence diagrams are stronger than guards in communication 
+			diagrams.
+____: Relations in a domain model are typically represented as operations in a 
+			UML class diagram.
+____: Operations in a UML class diagram are typically represented as fields in 
+			object-oriented source code (e.g., Java).
+
+
+
+Question 2, max points = 10 + 10 + 10 = 30
+
+You are designing a central university administration software. You have 
+identified three important groups of stakeholders: professors (prof),
+administrators (admin), and students. Draw a domain model as a UML class 
+diagram that initially contains a single box. This box will represent all 
+stakeholders. Now add to the diagram additional elements to represent 
+professors, administrators, students and the way they are related to the 
+stakeholder box.
+
+
+
+
+
+
+
+Now convert your domain model to Java code. I.e., outline the Java code 
+constructs that ensure that an administrator cannot be a professor and vice 
+versa.
+
+
+
+
+
+
+
+Now do another Java code outline, in which an administrator may also be a
+professor.
+
+
+
+
+
+
+
+Question 3, max points = 10 + 15 = 25
+
+Draw a UML sequence diagram that involves 3 elements: one call to a method 
+named a, one call to a method named b, and one call to a method named c. Design 
+the diagram such that it can be mapped to two different Java implementations of 
+the methods a, b, and c. In the first implementation, a calls c. In the second 
+implementation, b calls c.
+
+
+
+
+Give an outline of the two different implementations.

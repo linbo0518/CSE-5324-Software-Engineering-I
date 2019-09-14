@@ -1,0 +1,97 @@
+Name: __________________________________
+ID: __________________________________
+
+
+Quiz 2, CSE 5324
+Wednesday, March 9, 2011
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+
+
+Question 1, max points = 15
+
+True or false?
+
+_____: Each class in a UML class diagram represents a class in an
+				object-oriented program.
+_____: Relations in a domain model are typically represented as 
+				attributes in a UML class diagram.				
+_____: Attributes are the preferred way of modelling relations in an
+				UML class diagram.
+_____: Attributes in UML class diagrams are typically represented
+				as methods in object-oriented source code.
+_____: Android software development is only possible in the Eclipse IDE.
+										 
+										 
+Question 2, max points = 40 (20+10+10)
+
+You are designing a system that manages software development teams. 
+You have identified four important groups of stakeholders: 
+project managers, developers, architects, and testers. 
+(a) Draw a domain model as a UML class diagram that contains a single 
+class. This class will represent all stakeholders. Now add to the diagram
+additional elements to represent project managers, developers, architects, 
+and testers and the way they are related to the stakeholder class.
+
+
+
+
+
+
+
+(b) Now convert your domain model to Java code. Outline the Java class 
+or interface definitions in such a way that an architect cannot be a 
+developer and vice versa.
+
+
+
+
+
+
+
+(c) Now do another Java code outline in which a developer may also be an
+architect and vice versa.
+
+
+
+
+
+
+
+
+
+Question 3, max points = 45 (15+30)
+
+Consider the puzzle method in class C below.
+
+public class C {
+	public int f; // field
+
+  public static int puzzle(A a, int i) {
+																// <-- add assertion here
+    if (a.f == i)
+			return 42;   
+    return 0;
+   }
+}
+
+(a) For certain input values, the body of the puzzle method may throw a 
+runtime exception. Add an assertion at the beginning of the method body 
+that detects and prevents all such runtime exceptions. 
+Use the following template:
+       if (bad condition) return -1;
+
+(b) After adding your assertion, fill out the following table, similar
+to the Pex slides presented in class.
+
+Constraints to solve | Data  | Observed Constraints
+---------------------+-------+---------------------
+                     |       |
+                     |       |
+                     |       |

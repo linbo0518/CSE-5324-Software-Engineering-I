@@ -1,0 +1,91 @@
+Name: __________________________________  ID: __________________________________
+
+CSE 3311, Fall 2017, Quiz 4
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+
+
+Question 1, max points = 5 * 5 = 25
+
+Fill in each of the below ____ with the value returned by the method call 
+given after the == operator.
+				
+public class C 					 { 	public int foo(C p) { return 5; } }
+public class D extends C { 	public int foo(C p) { return 4; }
+														public int foo(D p) { return 3; } }
+public class E extends D {	public int foo(E p) { return 2; } }
+/* .. */ 
+C d = new D(); 
+C e = new E(); 
+D f = new E();
+____ == f.foo(e)
+____ == f.foo(d)
+____ == e.foo(e)
+____ == e.foo(d)
+____ == d.foo(d)
+
+
+
+Question 2, max points = 10 * 5 = 50
+
+True or false?
+
+____: The goal of the "coupling" GRASP pattern is to maximize coupling.
+____: For a given class C in an object-oriented program, if half of C's 
+			instructions focus on updating domain model relations and the other half 
+			focus on retrieving elements from the database, then we can say C has low 
+			cohesion.
+____: Java programs can contain kinds of coupling that are not possible in 
+			C programs.
+____: The maintainability of object-oriented code can be improved by replacing
+			"instanceof" expressions with subtype polymorphism.
+____: Design-by-Contract means that software developers have to sign a legal
+			contract for each code unit they implement.
+____: Design-by-Contract is an academic idea that to date has been ignored
+			by major software companies such as Microsoft.
+____: In Design-by-Contract, the preconditions P of a method M are useful
+			in the development of both the body of M and the callers of M.
+____: In Design-by-Contract, the postconditions Q of a method M are useful
+			in the development of both the body of M and the callers of M.
+____: To support Design By Contract and sub-contracting, it would make sense
+			for a language to allow co-variant type change for method return values.
+____: To support Design By Contract and sub-contracting, it would make sense
+			for a language to allow co-variant type change for method parameters.
+			
+				
+Question 3, max points = 15 + 10 = 25
+
+(a) Give the code of a textbook singleton class in an object-oriented language
+such as Java. You may use pseudo-code, but state the programming language for
+which you are giving the code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(b) Describe scenarios for which your above code does not maintain the 
+singleton property. Alternatively, explain how your code prevents common
+problems related to maintaining the singleton property, from which other 
+textbook singleton code versions suffer.

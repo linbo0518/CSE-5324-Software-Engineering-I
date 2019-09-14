@@ -1,0 +1,101 @@
+Name: __________________________________  ID: __________________________________
+
+CSE 3311, Fall 2017, Quiz 1
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+			
+				
+Question 1, max points = 10 * 5 = 50
+
+True or false?
+
+The first question is almost verbatim from the plagiarism homework.
+
+____: Since Wikipedia articles do not have an author listed and can be edited 
+			by anyone, you do not need to cite them as a source when copying text 
+			from a Wikipedia article into your slides.
+____: Copying a sentence from a web site into your slides, written 
+			deliverables, or homework solution is always plagiarism.
+____: You insert into your class presentation an image you found on the web. 
+			Adding a slide titled "References" at the end of your presentation and 
+			listing the web site there is enough to avoid plagiarism.
+____: Fagan inspections and reviews have in common that the reviewers' primary
+			goal is identifying problems in the reviewed documents.
+____: In industrial software engineering, a best practice is that Fagan 
+			inspections and reviews	should only be performed once the team has 
+			started coding.
+____: While checklists are widely used in other industries such as health care,
+			they are of little practical value in software engineering, since 
+			software engineering differs significantly from other engineering 
+			disciplines.
+____:	Software engineering tools such as build tools and test automation 
+			frameworks are of academic interest but of little practical value in
+			industrial software engineering.
+____: In a software project, a good vision statement excludes things that 
+			should not be part of the project.
+____: In a software project, a good vision statement should not be shared with
+			personnel outside the immediate project team.
+____: To be useful in a software project, mock screenshots must be created with
+			sophisticated prototyping tools.
+
+
+			
+			
+			
+			
+
+			
+Question 2, max points = 10 + 15 + 15 + 5 + 5 = 50
+
+(a) Briefly describe the two main activities of the original Fagan inspection 
+process (up to 1 sentence each).
+
+
+
+
+
+
+
+
+(b) Briefly describe the three defect severity levels "major", "minor", and
+"open issue" of the original Fagan inspection process (up to 1 sentence each).
+
+
+
+
+
+
+
+
+
+(c) Perform an indiviudal review of the wording of the first quiz question 
+(the 10 sub-questions of "Question 1" on the flip side), using the Fagan 
+inspection severity levels. List up to one of your defect findings (if any) 
+below.
+
+
+
+
+
+
+
+
+
+(d) Briefly describe a kind of defect that should never be produced by a Fagan 
+inspection or review (up to 1 sentence).
+
+
+
+
+
+
+(e) Give a brief reasoning about why the defect kind of sub-question (d) should 
+be excluded from Fagan inspections and reviews (one sentence).
+
+

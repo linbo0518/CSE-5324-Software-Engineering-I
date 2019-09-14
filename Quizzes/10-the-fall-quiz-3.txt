@@ -1,0 +1,95 @@
+Name: __________________________________
+ID: __________________________________
+
+
+Quiz 3, CSE 5324
+Tuesday, 11/16, 2010
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+
+
+Question 1, max points = 60
+
+True or false?
+
+_____: The design class diagram is considered a static design model.
+_____: The design class diagram is the most important element of a 
+				software design because it includes all the information that is
+				contained in the dynamic design models.	
+_____: If in the domain model each element of conceptual class A is related
+				with n elements of conceptual class B, and each element of B with
+				one element of A, then we can express this in Java code as 
+				"class A {B b;}".
+_____: If in the domain model each element of conceptual class A is related
+				with n elements of conceptual class B, and each element of B with
+				one element of A, then we can express this in Java code as 
+				"class B {A a;}".				
+_____: A relation that is not a function cannot be represented in a
+				design class diagram.
+_____: In Mathematics, the terms "relation" and "function" are synonyms.
+_____: In Software Engineering, the terms "relation" and "function" are 
+				synonyms.
+_____: A relation that is not a function cannot be implemented in code.
+_____: If versions v0 and v1 of a project only differ in the code of 
+				method D.f, D is the superclass of E, method E.k contains a method 
+				call "f()", method E.k is called by method A.h, and all methods 
+				are virtual (non-static, non-private, non-abstract), then the 
+				execution behavior of A.h may differ between v0 and v1.
+_____: The design of most Java applications could be improved by relying 
+				less on dynamic dispatch and more on the instanceof keyword.
+_____: If versions v1 and v2 of a project only differ in the code of method
+				E.z, E is a subclass of D, D.f contains a method call "z()", 
+				C.m calls D.f as in m(D d) { /*..*/ x = d.f(); /*..*/ }, and 
+				all methods are virtual (non-static, non-private, non-abstract), 
+				then the execution behavior of C.m may differ between v1 and v2.
+_____: The design of most Java applications could be improved by relying 
+				less on dynamic dispatch and more on Java reflection.
+_____: The UML concept of "realization" is unrelated to the UML concept
+				of "generalization"				
+_____: The core message of Bertrand Meyer's Design by Contract is that
+				you should not start the design before the client has paid the 
+				fee defined in the contract.
+_____: Bertrand Meyer's Design by Contract concepts are only useful for
+				people who code in his Eiffel programming language.
+_____: Sub-contracting in Design by Contract means that a sub-contractor
+				may place additional requirements on the client.
+_____: Sub-contracting in Design by Contract means that a client
+				may place additional requirements on the sub-contractor.
+_____: Sub-contracting in Design by Contract means that a client
+				may place additional requirements on the original contractor.				
+_____: Method overriding can be explained as sub-contracting.
+_____: Method overloading is best explained as sub-contracting.
+
+
+Question 2, max points = 20
+
+In the sense of Bertrand Meyer's Design by Contract, the following class B
+may act as a sub-contractor of class A. If B is a bad sub-contractor of A, 
+B may break a contract of A. Describe two separate ways how B may break a 
+contract of A. Phrase your explanation in terms of foo's pre- and 
+post-conditions. Hint: First fix a concrete contract for A.foo, e.g.:
+  precondition: p>0
+  postcondition: the method return value is positive
+
+public class A {
+	public int foo(int p) {..}
+}
+
+public class B extends A {
+	public int foo(int p) {..}
+}
+
+
+
+
+
+	
+Question 3, max points = 20
+
+What are the benefits of using Design by Contract?

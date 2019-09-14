@@ -1,0 +1,64 @@
+Name: __________________________________
+ID: __________________________________
+
+
+Quiz 1, CSE 5324
+Tuesday, September 28th, 2010
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+
+
+Question 1, max points = 60
+
+True or false?
+
+_____: The waterfall model is a classic software development process model.
+_____: The waterfall model aims at producing code before all requirements 
+				are fully analyzed.
+_____: The waterfall model is often described as "iterative".
+_____: A typical customer in software engineering is comfortable expressing
+        requirements rigorously, e.g., in first-order logic.
+_____: Iterative software development aims at fully analyzing 
+				all requirements before writing code.
+_____: It has been scientifically proven that, for small to medium projects, 
+				iterative software development always leads to better results
+				than the waterfall model.
+_____: In large industrial software engineering, requirements are typically 
+				fixed early on in the project and remain fixed.
+_____: The main goal of the project inception phase is to create a use-case
+				diagram.
+_____: We can easily prove that a requirements document is sound and complete
+				with respect to the wishes of the user.
+_____: Using the sound/complete classification, if the user wishes A, B, C,
+				a specification that contains A, C is sound.
+_____: Using the sound/complete classification, if the user wishes A, B, C,
+				a specification that contains A, B, C, D is complete.
+_____: Using the sound/complete classification, if the user wishes A, B, C,
+				a specification that contains A, B, C, D is sound.				
+_____: Each use-case consists of one success scenario and one 
+				failure scenario.
+_____: A use-case model often contains more information than the
+				corresponding use-case diagram.
+_____: A use-case diagram often contains more information than the
+				corresponding use-case model.
+_____: Domain models can be explained in terms of sets, relations, and 
+				constraints on sets and relations.
+_____: A domain model can only be expressed with UML class diagrams.
+_____: Each class in a class diagram represents a class in an
+				object-oriented program.
+_____: The name of a conceptual class should be a noun phrase.
+_____: Each successful software development project in industry uses UML.
+
+
+
+Question 2, max points = 40
+
+This is an open-ended question. Provide as much information as you
+can within the time limit. Pick one use-case of your team project and
+develop it here.

@@ -1,0 +1,104 @@
+Name: __________________________________  ID: __________________________________
+
+CSE 3311, Fall 2018, Quiz 3
+
+
+Example Question: True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+			
+				
+Question 1: True or false? (max points = 10 * 5 = 50)
+
+____: The notion of "operation contract" we covered in class specifically
+			targets the medical domain, to establish a contract before a medical
+			procedure.
+____: With the domain model notation we covered in class we can constrain a
+			given relation in a domain model to be a function.
+____: The fact that a domain model relation does not contain a certain tuple is
+			a valid operation contract pre-condition.
+____: The fact that a domain model relation does not contain a certain tuple is
+			a valid operation contract post-condition.
+____: An operation contract post-condition can relax a multiplicity constraint
+			of relation R in the domain model from "R is a function" to "R may be an
+			arbitrary relation".
+____: An operation contract post-condition can restrict a given relation S in 
+			the domain model from "S is an arbitrary relation" to "S is a function".			
+____: A name-space is typically organized in a tree-structure.
+____: When structuring elements via a name-space, two of these elements can 
+			have the same fully qualified name.
+____: When structuring elements via a name-space, two of these elements can 
+			have the same simple name.			
+____: When structuring a set of elements {A, B, C, ..} via a name-space, 
+			elements A and B may have the same simple name X. At the same time, the
+			parent of A and the parent of B may also have the same simple name X.			
+			
+
+
+
+
+			
+			
+			
+			
+			
+			
+
+
+
+			
+			
+			
+			
+Question 2, max points = 15 + 15 + 10 + 10 = 50
+
+You are designing a system that manages a library. You have identified the 
+following kinds of library items: books, periodicals, and DVDs.
+
+(a) Draw a domain model as a UML class diagram that contains a single type. 
+This type will represent all library items. Now add to the diagram additional 
+elements to represent books, periodicals, and DVDs and the way they are related 
+to the item type. Enforce in your class diagram that each item is either a 
+book, a periodical, or a DVD.
+
+
+
+
+
+
+
+
+
+
+(b) Now convert your domain model to Java code skeletons.
+
+
+
+
+
+
+
+
+
+(c) A few days later you realize that your library will also have to manage a 
+variety of other library items that are similar to books, periodicals, and 
+DVDs, but do not fit any of these three kinds. You plan to make a single change 
+to your UML class diagram to allow for any such items. Draw an updated version 
+of your UML class diagram domain model.
+
+
+
+
+
+
+
+
+
+
+(d) Convert your updated domain model to Java code skeletons.
+
+
+
+
+

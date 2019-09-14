@@ -1,0 +1,90 @@
+Name: __________________________________
+ID: __________________________________
+
+
+Quiz 3, CSE 5324
+March 27th, 2013
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+
+
+Question 1, max points = 15 * 4 = 60
+
+True or false?
+
+
+_____: A relation is a set of tuples.
+_____: Code reviews are an interesting research topic but are not done in 
+				practice.
+_____: Information hiding in software engineering means that an 
+				application hides information from the end user.
+_____: Information hiding in software engineering means that a developer
+				does not check in any source code into the team repository.
+_____: A best practice in software design is information hiding.
+_____: A best practice in designing an object-oriented application is  
+				to minimize the number of interfaces in the application.
+_____: The best software architecture for every application consists of 
+				seven layers.
+_____: The goal of creating a domain model is to eventually map each set
+				of the domain model to a UI implementation class.
+_____: The name A::B is an example of a simple name in the UML package
+				notation.
+_____: UML packages are exclusive to UML class diagrams.
+_____: A common theme among the last two guest lectures was that one can 
+				lower the overall software development costs by deferring bug 
+				fixing to later development phases.
+_____: Testing the user interface of an Android application can be 
+				automated.
+_____: Test-driven development (TDD) is an integral part of every iterative
+				software development process.
+_____: In test-driven development (TDD), the software is correct once all
+				tests pass.
+_____: Test-driven development (TDD) is iterative.
+
+
+Question 2, max points = 40
+
+Recall the lecture of John Robb from Lockheed Martin. John described that
+as part of his job his team is collecting different kinds of data.
+
+(a) Describe the kinds of data John's team is collecting.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(b) Why is John's team collecting these data? What can they infer from these
+data?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(c) Describe the limits of this approach, including the following. Can this 
+approach work outside of Lockheed Martin? Can this approach work outside of 
+Lockheed Martin's industry? Does this approach equally apply to large and 
+small companies and teams?

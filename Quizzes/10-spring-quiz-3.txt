@@ -1,0 +1,99 @@
+Name: __________________________________
+ID: __________________________________
+
+
+Quiz 3, CSE 5324
+Tuesday, April 6th, 2010
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+
+
+Question 1, max points = 60
+
+True or false?
+
+_____: The design class diagram is considered a static design model.
+_____: The design class diagram is the most important element of a 
+				software design because it includes all the information that is
+				contained in the dynamic design models.	
+_____: Each class in a UML class diagram represents a class in an
+				object-oriented program.			
+_____: The relations (associations) depicted in the domain model cannot 
+				be represented in the design class diagram.
+_____: A 1:1 relation in the domain model may be implemented in a design
+				class diagram as an attribute.
+_____: A 1:1 relation in the domain model may be implemented in code
+				as an instance field.
+_____: A relation that is not a function cannot be represented in a
+				design class diagram.
+_____: A relation that is not a function cannot be implemented in code.
+_____: The UML concept of "realization" is unrelated to the UML concept
+				of "generalization"
+_____: The core message of Bertrand Meyer's Design by Contract is that
+				you should not start the design before the client has paid the 
+				fee defined in the contract.
+_____: Bertrand Meyer's Design by Contract concepts are only useful for
+				people who code in his Eiffel programming language.
+_____: Sub-contracting in Design by Contract means that a sub-contractor
+				may place additional requirements on the client.
+_____: Method overriding can be explained as sub-contracting.
+_____: Method overloading is best explained as sub-contracting.
+
+The following questions are on our guest lecture.
+
+_____: The main purpose of a review checklist is to help reviewers
+				find bugs.
+_____: The main purpose of a review checklist is to help authors find bugs.
+_____: The average speed of a code review was  50 lines of code per hour.
+_____: The average speed of a code review was 150 lines of code per hour.
+_____: It is most productive to associate any productivity measurements
+				with individuals, not the team as a whole.
+_____: It is most productive to associate any productivity measurements
+				with the team as a whole, not individuals.
+
+
+Question 2, max points = 30
+
+You are designing a system that manages sports teams. You have identified
+two important concepts: players and games. We also know that each player 
+plays in up to n games and each game is played by at least m players.
+Draw a domain model as a UML class diagram that represents these two 
+concepts and the "plays" relation between them. 
+
+
+
+
+
+Now convert the domain model into a design class diagram. Take into account
+that, in the code, we will need to navigate from a game to the 
+participating players, but not the other way around.
+
+
+
+
+
+Now convert the design class diagram into Java classes. You may limit
+your answer to a minimal outline that just represents the concepts 
+discussed above.
+
+
+
+
+
+Question 3, max points = 10
+
+In the sense of Bertrand Meyer's Design by Contract, the following 
+class B may act as a sub-contractor of class A. If B is a bad
+sub-contractor of A, B may break a contract of A. Show two separate
+ways how B may break a contract of A. Phrase your explanation in
+terms of foo's pre- and post-conditions.
+
+public class B extends A {
+	public int foo(int p) {..}
+}

@@ -1,0 +1,80 @@
+Name: __________________________________  ID: _______________________________
+
+CSE 3311, Spring 2017, Quiz 3
+
+
+Example Question: True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+			
+				
+Question 1, max points = 10 * 5 = 50
+
+True or false?
+
+____: Operation contracts can be used to describe state changes in the domain 
+			model sets and relations.
+____: The fact that a domain model relation does not contain a certain tuple is 
+			a valid operation contract post-condition.
+____: A name-space is typically organized in a tree-structure.
+____: When structuring elements via name-spaces, one can assign the same simple
+			name to many different elements.
+____: Information hiding means that we should hide int values by storing them 
+			as floating point numbers.
+____: A relation that is not a function cannot be implemented in Java code.
+____: A 1:N relation in the domain model may be implemented in code as an 
+			instance field.
+____: A M:N relation in the domain model may be implemented in code as an 
+			instance field.			
+____: A box in a communication diagram represents the same amount of
+			items as the corresponding box in a domain model.
+____: In an object-oriented program, an instance field can be understood as
+			a map (a mathematical function) from instance values to field values.
+	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+Question 2, max points = 25 + 25 = 50
+
+(a) For this question assume object-oriented terminology, e.g., as found in the
+context of Java, C#, or C++. Draw a single UML sequence diagram that contains 
+one call each to the three methods a, b, and c, where class X defines a and 
+class Y defines c. Design your sequence diagram such that it can be mapped to 
+two different implementations:
+- In the first implementation, a calls c.
+- In the second implementation, b calls c.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(b) Give an outline of the two different implementations. That is, show the
+code outline of the involved classes and methods in an object-oriented language
+of your choice. Clearly state the language you are using.
+

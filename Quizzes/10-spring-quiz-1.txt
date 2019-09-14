@@ -1,0 +1,59 @@
+Name: __________________________________
+ID: __________________________________
+
+
+Quiz 1, CSE 5324
+Wednesday, February 16th, 2010
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+
+
+Question 1, max points = 60
+
+True or false?
+
+_____: The waterfall model is a classic software development process model.
+_____: The waterfall model aims at producing code before all requirements 
+				are fully analyzed.
+_____: The waterfall model is often described as "agile".
+_____: The waterfall model is often described as "iterative".
+_____: The class project is designed to closely follow the waterfall model.
+_____: Iterative software development aims at fully analyzing 
+				all requirements before writing code.
+_____: It has been scientifically proven that, for small to medium projects, 
+				iterative software development always leads to better results
+				than the waterfall model.
+_____: The main goal of the project inception phase is to create a use-case
+				diagram.
+_____: The name of a use-case should be a verb and a noun phrase.
+_____: FURPS+ is the only requirement classification scheme that 
+				exists to date.
+_____: We can easily prove that a requirements document is sound and complete
+				with respect to the wishes of the user.
+_____: Each use-case consists of one success scenario and one 
+				failure scenario.
+_____: A use-case model often contains more information than the
+				corresponding use-case diagram.
+_____: A use-case diagram often contains more information than the
+				corresponding use-case model.
+_____: A domain model can only be expressed with a UML class diagram.
+_____: A UML class diagram can only express domain models.
+_____: Each class in a class diagram represents a class in an
+				object-oriented program.
+_____: Each class in an UML class diagram is represented with a circle.
+_____: An association typically connects three or more classes.
+_____: The name of a conceptual class should be a noun phrase.
+
+
+
+Question 2, max points = 40
+
+This is an open-ended question. Provide as much information as you
+can within the time limit. Pick one use-case of your team project and
+develop it here.

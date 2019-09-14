@@ -1,0 +1,77 @@
+Name: __________________________________
+ID: __________________________________
+
+
+Quiz 1, CSE 5324
+February 18, 2015
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+
+
+Question 1, max points = 15 * 4 = 60
+
+True or false?
+
+____: Software development tools such as source control systems are of great 
+			academic interest, but they are not used in practice.
+____: A software bug can lead to a financial loss of USD 500 million.
+____: The cost of fixing a bug is independent from the points in time at which 
+			the bug was introduced into and removed from the software.
+____: The waterfall model is often described as "iterative".
+____: A typical customer in software engineering is comfortable expressing
+      requirements rigorously, e.g., in first-order logic.
+____: A binary relation is a set of pairs.
+____: A binary relation is a set of tuples.
+____: A binary relation is a set of sequences.
+____: Every function is a relation.
+____: Every relation is a function.
+____: ((NOT a) OR b) == (a IMPLIES b)
+____: In industry, the majority of software engineers uses UML wholeheartedly.
+____: As originally defined, Fagan inspections could not be applied to code.
+____: As originally defined, Fagan inspections could not be applied to design.
+____: A best practice is to use reviews and inspections to check if documents
+			satisfy the organization's style and formatting rules.
+
+			
+			
+
+			
+			
+			
+			
+			
+
+
+			
+			
+			
+Question 2, max points = 15 + 25 = 40
+
+This is an open-ended question. Provide as much information as you can within 
+the time limit. Recall the requirements of your class project. Within these
+requirements, identify a single issue for which various stakeholders (team 
+members, instructor, TA, review team, outside parties) have expressed two
+(or more) viewpoints that conflict with each other.
+
+(a) Briefly (no more than 3 sentences) describe the issue and two of the 
+conflicting positions on the issue.
+
+
+
+
+
+
+
+
+
+(b) Now document the issue, positions, arguments, and stakeholders graphically,
+using the notation we used in our in-class exercise.
+
+
+

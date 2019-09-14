@@ -1,0 +1,57 @@
+Name: __________________________________  ID: __________________________________
+
+CSE 3311, Fall 2018, Quiz 2
+
+
+Example Question: True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+			
+				
+Question 1: True or false? (max points = 15 * 4 = 60)
+
+____: A software engineering best practice is using a source control system, 
+			such as Git, Hg, or Subversion.
+____: Joel's hallway usability testing (of the "Joel Test") requires a hallway.
+____: According to the Joel Test, a good way to reduce a programmer's 
+			productivity is to frequently interrupt the programmer during 
+			programming.
+____: Dealing with requirement changes is on average easier with iterative 
+			software development than it is with waterfall-style software development.
+____: Dealing with an unexpected departure of a team member is on average 
+			easier with iterative software development than it is with waterfall-style 
+			software development.
+____: In iterative software development, "time-boxed" iterations mean that 
+			management frequently shortens the duration of individual iterations, 
+			while increasing the duration of other iterations, to respond to project 
+			needs.
+____: Different stakeholders may have viewpoints that conflict with each other.
+____: A best practice for making it easy to check if a software system S meets 
+			a given requirement R is to quantify R.
+____: Assume requirement R1 is "S has to respond immediately" and requirement 
+			R2 is "S has to respond within one hour". Checking if S satisfies R2 is 
+			easier than checking if S satisfies R1.				
+____: Some requirements, such as usability, are by their nature "hopeless" and
+			therefore hard to achieve, as they cannot be made testable.
+____: In the domain model notation we discussed in class, a relation (a line)
+			can connect an entity (a box) with the box itself (a "self-loop").
+____: An example domain model relation is entity X reporting entity Y.
+____: Assume we are creating a student class registration system for schools. 
+			Then we can include a "takes" relation between "students" and "classes" 
+			(e.g., student X takes classes A, B, and C) in our domain model that we 
+			design with the domain model notation discussed in class.
+____: For the above system, a best practice discussed in class is modeling
+			"students" as an attribute of "class".
+____: For the above system, a best practice discussed in class is modeling
+			"classes" as an attribute of "student".
+
+			
+			
+
+
+
+Question 2, max points = 40
+
+This is an open-ended question. Provide as much information as you can within 
+the time limit. Pick one use-case of your team project and develop it here.

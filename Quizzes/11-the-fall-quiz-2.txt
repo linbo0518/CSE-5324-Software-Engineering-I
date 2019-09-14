@@ -1,0 +1,99 @@
+Name: __________________________________
+ID: __________________________________
+
+
+Quiz 2, CSE 5324
+October 17th, 2011
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+
+
+Question 1, max points = 15 * 4 = 60
+
+True or false?
+
+_____: Domain models can be explained in terms of sets, relations, and 
+				constraints on sets and relations.
+_____: A relation is a set of tuples.
+_____: A function is a set of tuples.
+_____: A domain model can only be expressed with a UML class diagram.				
+_____: Each class in a UML class diagram represents a class in an
+				object-oriented program.
+_____: Relations in a domain model are typically represented as 
+				attributes in a UML class diagram.				
+_____: For each pair of classes (A,B) in a UML class diagram, there can
+				be more than one line (association) from A to B.
+_____: For each pair of sets (A,B) in a domain model, there can
+				be more than one relation between A and B.
+_____: For each class C in a UML class diagram, there can be a line
+				(association) from C to C.
+_____: N-ary relations with N>2 are rare in UML.
+_____: If we express a domain model as a UML class diagram, we can
+				express that one set is a subset of another set.
+_____: If we express a domain model as a UML class diagram, we cannot
+				express that two subsets do not overlap.
+_____: The UML class diagram constraint "each element of set A also has 
+				to be an element of a subset of A" cannot be mapped to Java.
+_____: One goal of creating a system sequence diagram is to identify
+				the public API of the software system.
+_____: In practice, Fagan inspections are effective at finding bugs.
+
+										 
+										 
+Question 2, max points = 40 (20+10+10)
+
+You are designing a system that manages software development teams. 
+You have identified two important groups of stakeholders: 
+developers and testers.
+(a) Draw a domain model as a UML class diagram that contains a single 
+class. This class will represent all stakeholders. Now add to the diagram
+additional elements to represent developers and testers and the way they 
+are related to the stakeholder class.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(b) Now convert your domain model to Java code. Outline the Java class 
+or interface definitions in such a way that a developer may also be a 
+tester and vice versa.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(c) Now do another Java code outline in which a developer cannot be a
+tester and vice versa.
+
+
+
+
+
+
+

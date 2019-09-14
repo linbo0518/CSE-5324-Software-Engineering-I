@@ -1,0 +1,84 @@
+Name: __________________________________  ID: _______________________________
+
+CSE 3311, Spring 2017, Quiz 4
+
+
+Example Question: True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+			
+				
+Question 1, max points = 10 * 5 = 50
+
+True or false?
+
+____: According to the GRASP principles, a best practice in Java applications
+			is to use "instanceof" expressions.
+____: According to the GRASP principles, a best practice in Java applications
+			is to use bloated controllers.
+____: Java programs can contain kinds of coupling that are not possible in 
+			C programs.			
+____: If an object-oriented application consists of many classes then the 
+			optimal coupling between these classes is zero.
+____: If an object-oriented application has high coupling then its classes are
+			guaranteed to also have high cohesion.
+____: If the classes of an object-oriented application have high cohesion, then
+			the application is guaranteed to also have high coupling.		
+____: Design by Contract as discussed in class means that an agile team should 
+			only start designing an application once the customer has signed the 
+			project's contract.
+____: In Design by Contract, a sub-contractor may place additional requirements 
+			on the clients of the original contractor.
+____: To support Design By Contract and sub-contracting, it would make sense 
+			for a language to allow co-variant type change for method return types.			
+____: If class Dog extends class Animal then a future (different) version 
+			of the Animal class may break the code in Dog.
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+Question 2, max points = 10 * 5 = 50
+
+Fill in each of the five blanks (____) below with the value returned by the
+method call that is given after the == operator.
+				
+public class C 					 { 	public int foo(C p) { return 1; } }
+public class D extends C { 	public int foo(C p) { return 2; }
+														public int foo(D p) { return 3; } }
+public class E extends D {	public int foo(D p) { return 4; }
+														public int foo(E p) { return 5; } }
+public class F extends E {	public int foo(F p) { return 6; } }
+/* .. */ 
+C u = new C(); 
+C w = new D(); 
+C x = new E(); 
+C y = new F();
+D z = new F();
+
+____ == z.foo(z)
+____ == z.foo(y)
+____ == y.foo(z)
+____ == z.foo(x)
+____ == x.foo(z)
+
+____ == x.foo(y)
+____ == y.foo(x)
+____ == w.foo(w)
+____ == w.foo(u)
+____ == u.foo(w)

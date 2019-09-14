@@ -1,0 +1,56 @@
+Name: __________________________________
+ID: __________________________________
+
+
+Quiz 1, CSE 5324
+September 28th, 2011
+
+
+Example Question
+
+True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+
+
+Question 1, max points = 15 * 4 = 60
+
+True or false?
+
+_____: The cost of fixing a bug is independent from the points in time at 
+				which the bug was introduced into and removed from the software.
+_____: The waterfall model is often described as "iterative".
+_____: A typical customer in software engineering is comfortable expressing
+        requirements rigorously, e.g., in first-order logic.
+_____: The goal of iterative software development is to first fully design the 
+				software and to then iterate between coding and testing.
+_____: It has been scientifically proven that, for small to medium projects, 
+				iterative software development always leads to better results
+				than the waterfall model.
+_____: We can easily prove that a requirements document is sound and complete
+				with respect to the wishes of the user.
+_____: Using the sound/complete classification, if the user wishes A, B, C,
+				a specification that consists of B is sound.
+_____: A use-case model often contains more information than the
+				corresponding use-case diagram.
+_____: A good use case is one that is short, about one paragraph of text.
+_____: The UML authors are disappointed with the use of UML as they expected
+				that entire programs would routinely be generated from UML diagrams.
+_____: The stakeholders of the same software development project may have
+				different viewpoints.
+_____: Software documentation tools such as Doxygen or JavaDoc are of
+				great academic interest, but they are not used in practice.
+_____: The graphical user interface of an Android application can only be
+				defined or changed with a graphical tool such as DroidDraw.
+_____: Refactoring is a powerful software engineering technique but it
+				has to be performed manually, as tools such as Eclipse do not 
+				support it.
+_____: The FindBugs tool cannot be applied in Android projects.
+
+
+Question 2, max points = 40
+
+This is an open-ended question. Provide as much information as you
+can within the time limit. Pick one use-case of your team project and
+develop it here.
