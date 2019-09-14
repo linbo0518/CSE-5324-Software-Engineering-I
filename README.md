@@ -16,11 +16,11 @@ CSE 5324 SFWR ENG I ANLY, DSGN, TESTING (2019 Fall)
 
 ## Team
 
-|     Name     | Student ID |         Email          |
-| :----------: | :--------: | :--------------------: |
-|    Bo Lin    | 1001778270 |  linbo0518@gmail.com   |
-|  Haibo Wang  | 1001778514 | faithwhb0014@gmail.com |
-| Jiaying Zhou | 1001780897 | zjy474438417@gmail.com |
+|     Name     | Student ID |               Email               |
+| :----------: | :--------: | :-------------------------------: |
+|    Bo Lin    | 1001778270 |  linbo0518 [AT] gmail [DOT] com   |
+|  Haibo Wang  | 1001778514 | faithwhb0014 [AT] gmail [DOT] com |
+| Jiaying Zhou | 1001780897 | zjy474438417 [AT] gmail [DOT] com |
 
 ## Quizzes
 
@@ -30,3 +30,4 @@ See [Quizzes](Quizzes/)
 
 - [Assignments 1](https://docs.google.com/document/d/1IJo2jN_k6EzOgV0dzUAQwwjNsBohCcDou44ztYv_84g/edit?usp=sharing)
 - [Assignments 2](https://docs.google.com/presentation/d/1myG6JJ37fxbQILkVfZJHq8xefceV-3GFdfXEm4fokws/edit?usp=sharing)
+- [Assignments 2](https://docs.google.com/document/d/1eNhLfGaIxR-UHpE5gV_hiLN_-r0e4MJO7fGkP6kdicM/edit?usp=sharing)
