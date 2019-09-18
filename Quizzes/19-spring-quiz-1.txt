@@ -1,0 +1,94 @@
+Name: __________________________________  ID: __________________________________
+
+CSE 3311, Spring 2019, Quiz 1
+
+
+Example Question: True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+			
+				
+Question 1: True or false? (max points = 15 * 4 = 60)
+
+____: Since Wikipedia articles do not have an author listed and can be edited 
+			by anyone, you do not need to cite them as a source when copying text 
+			from a Wikipedia article into your written project deliverables.
+____: Copying a sentence from a web site into your slides is always plagiarism, 
+			no matter what else you do.
+____: You insert into your slides an image you found on the web. Adding a slide 
+			titled "References" at the end and listing the web site there is enough to 
+			avoid plagiarism.			
+____: In a software project, a good vision statement excludes things that 
+			should not be part of the project.
+____: The goal of an exclusive vision statement is to minimize the amount of
+			software the project will produce.			
+____: In software engineering, a project team X should share its vision 
+			statement with the engineers who review X's software artifacts.
+____: You can create an UI prototype of an Android app without any programming.
+____: You can create an UI prototype of an iOS app without any programming.
+____: Mock screenshots (UI prototypes) created with pencil and paper can be a 
+			better choice in a software development project than UI prototypes 
+			created with dedicated prototyping software.
+____: Every software development project faces risks.
+____: A key technique for mitigating a software development team's risk of 
+			developing the wrong functionality is to get as much feedback from 
+			customers and users as frequently as possible.
+____: Key techniques for mitigating the risk of requirements volatility when 
+			developing an object-oriented application include making all object 
+			fields private by default and accessing each class via interfaces.
+____:	If an architecture document describes features that are not part of the 
+			project requirements then this is not considered a problem, as the 
+			customer will get additional features and everyone will be happy.			
+____: A core task of the reviewers in a Fagan inspection is to provide detailed 
+			improvement suggestions as part of their review.			
+____: Fagan inspections are most cost-effective if they are only performed at 
+			the end of a project.			
+			
+			
+
+
+			
+			
+			
+Question 2 (max points = 10 + 10 + 10 + 10 = 40)
+
+(a) Briefly describe the two biggest concrete risks your team project is
+currently facing (up to 1 sentence each).
+
+
+
+
+
+
+
+
+
+
+(b) For the two risks you identified in (a), compute each risk's risk exposure. 
+Give each risk's effect E and risk exposure RE in terms of the number of extra 
+hours your team would have to spend in total if the risk became a reality. 
+
+
+
+
+
+
+
+
+
+
+(c) Justify your choices of E and RE briefly (one sentence each).
+
+
+
+
+
+
+
+
+
+
+(d) Briefly describe your plan for mitigating each of the risks you identified 
+in (a), (up to 2 sentences each).
+

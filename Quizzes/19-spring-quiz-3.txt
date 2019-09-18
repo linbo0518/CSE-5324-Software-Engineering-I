@@ -1,0 +1,105 @@
+Name: __________________________________  ID: __________________________________
+
+CSE 3311, Spring 2019, Quiz 3
+
+
+Example Question: True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+			
+				
+Question 1: True or false? (max points = 10 * 5 = 50)
+
+____: "After spending 5 minutes on the app's built-in training material, 
+			80% of users shall be able to complete a purchase order within the app 
+			within 5 minutes" is easier to test than "the app should be very
+			user-friendly".
+____: The notion of "operation contract" we covered in class specifically
+			targets the medical domain, to establish a contract before a medical
+			operation.
+____: A domain model in the UML class diagram notation we used in class may 
+			contain a single box X plus the three associations A, B, and C, where 
+			each association connects X with itself.			
+____: With the domain model notation we covered in class we can constrain a
+			relation in a domain model to be a function.
+____: With the domain model notation we covered in class we can constrain a
+			given relation R on sets A and B in a domain model such that R 
+			satisfies the following two conditions. Condition 1: R relates each 
+			element in A to exactly one element in B. Condition 2: R relates each 
+			element in B to exactly one element in A.			
+____: With the domain model notation we covered in class we can constrain a
+			given relation Q on sets A and B in a domain model such that Q 
+			satisfies the following two conditions. Condition 1: Q relates each 
+			element in A to exactly two elements in B. Condition 2: Q relates each 
+			element in B to exactly one element in A.
+____: The fact that a domain model relation contains a certain tuple is
+			a valid operation contract post-condition.
+____: The fact that set M in the domain model contains a certain element is a 
+			valid operation contract post-condition.			
+____: Given some relation S on sets A and B in an app's domain model, a step in 
+			a use case scenario of the app can temporarily "relax" S's multiplicity 
+			constraint of "each element in A is related to exactly one element in B 
+			and vice versa", by relating each element in A to an arbitrary number 
+			of elements in B and vice versa.
+____: Given some relation T on sets A and B in an app's domain model, a step in 
+			a use case scenario of the app can temporarily "tighten" T's multiplicity 
+			constraint of "each element in A is related to an arbitrary number of 
+			elements in B and vice versa", by relating each element in A to exactly 
+			one element in B and vice versa.
+			
+			
+
+
+Question 2, max points = 10 + 15 + 15 + 10 = 50
+
+You are designing an app that can manage a professional basketball franchise 
+(NBA or WNBA). You have determined that your app has to keep track of the 
+following groups of people: players, trainers, and (back-office) workers.
+
+(a) For this basketball franchise scenario, draw a first version of your domain 
+model as a UML class diagram that contains a single element. For now this 
+element will represent the set of all people the app keeps track of.
+
+
+
+
+(b) Now you want to create a refined domain model that contains additional 
+elements to represent the players as one set of people, trainers as another, 
+and (back-office) workers as another. Now the domain model should make it clear 
+that there can be no overlap between these three sets (e.g., a player cannot be 
+a trainer). Also the domain model should retain the element from (a), to make 
+clear that each of the three sets (players, trainers, workers) is a subset of 
+all the people the app keeps track of. Draw the new model below.
+
+
+
+
+
+
+
+
+
+
+(c) Now convert your domain model to code skeletons in an object-oriented 
+language (e.g., Java, C#, or C++). Recall that in our methodology each set 
+item (e.g., each player) becomes an instance (an object) in an object-oriented
+app. Document your choice of language. Your code skeletons should retain all 
+the constraints from (b).
+
+
+
+
+
+
+
+
+
+
+
+
+(d) Briefly (two sentences) describe how your language choice in (c) has 
+influenced how your solution in (c) enforces the constraint from (b), i.e., no 
+overlap between the three sets of people (e.g., a player cannot be a trainer).
+
+

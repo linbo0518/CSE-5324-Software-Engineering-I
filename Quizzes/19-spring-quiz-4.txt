@@ -1,0 +1,92 @@
+Name: __________________________________  ID: __________________________________
+
+CSE 3311, Spring 2019, Quiz 4
+
+
+Example Question: True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+			
+				
+Question 1: True or false? (max points = 10 * 5 = 50)
+
+____: A box in a communication diagram represents the same amount of
+			items as the corresponding box in a domain model.
+____: A line in a communication diagram represents the same amount of
+			items as the corresponding line in a domain model.
+____: In Java, the Java compiler can resolve method overloading.			
+____: In Java, the Java compiler can resolve method overriding.			
+____: In the context of the below class definitions, method match(Rectangle) in 
+			class Square overloads the match(Square) method in Square.
+____: In the below setup, method match(Rectangle) in class Square overloads the 
+			match(AShape) method that Square inherits from Rectangle.			
+____: In the below setup, the method signature match(Rectangle) is more specific 
+			than match(AShape) -- in the sense of method overloading.
+____: In the below setup, in method overloading method signature 
+			foo(Square,Square,Rectangle) is more specific than 
+			foo(AShape,AShape,Square).						
+____: In the below setup, method match(AShape) in class Rectangle overrides
+			match(AShape) in AShape.			
+____: In the below setup, method match(Square) in class Square overrides
+			match(Rectangle) in Rectangle.		
+			
+public class AShape
+{ 	
+	public int match(AShape p) 		{ return 1; }
+}
+public class Rectangle extends AShape 
+{	
+	public int match(AShape p) 		{ return 2; }
+	public int match(Rectangle p)	{ return 3; }
+}
+public class Square extends Rectangle 
+{	
+	public int match(Rectangle p)	{ return 4; }
+	public int match(Square p) 		{ return 5; } 
+}
+
+
+
+
+
+			
+Question 2, max points = 10 * 5 = 50
+
+Consider the below excerpt of a Java program. Fill in each of the blanks 
+(____) with the value returned by the method call that is given after the 
+== operator.
+				
+public class AShape
+{ 	
+	public int match(AShape p) 		{ return 1; }
+}
+public class Rectangle extends AShape 
+{	
+	public int match(AShape p) 		{ return 2; }
+	public int match(Rectangle p)	{ return 3; }
+}
+public class Square extends Rectangle 
+{	
+	public int match(Rectangle p)	{ return 4; }
+	public int match(Square p) 		{ return 5; } 
+}
+/* .. */ 
+AShape 		a1 = new AShape(); 
+AShape 		a2 = new Rectangle(); 
+AShape 		a3 = new Square();
+Rectangle r1 = new Rectangle();
+Rectangle r2 = new Square();
+Square 		s1 = new Square();
+
+____ == a3.match(r1)
+____ == r1.match(a3)
+____ == a2.match(a2)
+____ == a2.match(a1)
+____ == a1.match(a2)
+
+____ == s1.match(s1)
+____ == r2.match(r1)
+____ == r1.match(r2)
+____ == r2.match(a3)
+____ == a3.match(r2)

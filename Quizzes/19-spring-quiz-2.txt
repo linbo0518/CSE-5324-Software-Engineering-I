@@ -1,0 +1,59 @@
+Name: __________________________________  ID: __________________________________
+
+CSE 3311, Spring 2019, Quiz 2
+
+
+Example Question: True or false?
+
+true: You may use a cheat sheet that you have written yourself.
+true: You may not use any other sources.
+			
+				
+Question 1: True or false? (max points = 15 * 4 = 60)
+
+____: Joel's hallway usability testing (of the "Joel Test") requires a hallway.
+____: Joel's hallway usability testing is a fast way to get feedback on the 
+			software you are developing.
+____: According to the Joel Test, a good way to reduce a programmer's 
+			productivity is to frequently chat with the programmer (e.g., every 15 
+			minutes).
+____: According to the Joel Test, the most productive work environment for 
+			programmers is a large open floor plan office, where programmers both 
+			sit close to and frequently interact with many non-programmers.
+____: A common synonym for the waterfall model is "iterative".			
+____: In an iterative process, the first few iterations do not produce any 
+			code.
+____: On average, the larger the software development project, the higher is 
+			the percentage of requirements that will change during the project.			
+____: Dealing with requirement changes is on average easier with iterative 
+			software development than it is with waterfall-style software development.
+____: In iterative software development, "time-boxed" iterations mean that 
+			management frequently shortens the duration of individual iterations, 
+			while increasing the duration of other iterations, to respond to project 
+			needs.
+____: Creating UML diagrams is only cost-effective when done in a UML modelling
+			tool.
+____: Each extension of use-case U answers a "what if" question about U's main 
+			success scenario.
+____: An extension of use-case U may consist of more steps than U's main 
+			success scenario.
+____: A best practice for making it easy to check if a software system S meets 
+			a given requirement R is to quantify R.
+____: Assume requirement R1 is "S has to respond immediately" and requirement 
+			R2 is "S has to respond within one hour". Checking if S satisfies R2 is 
+			easier than checking if S satisfies R1.				
+____: Some requirements, such as usability, are by their nature "hopeless" and
+			therefore hard to achieve, as they cannot be made testable.
+			
+
+
+
+
+
+
+
+Question 2, max points = 40
+
+This is an open-ended question. Provide as much information as you can within 
+the time limit. Pick one use-case of your team project and develop it here.
+
