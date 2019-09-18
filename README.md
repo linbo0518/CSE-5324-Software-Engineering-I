@@ -30,4 +30,4 @@ See [Quizzes](Quizzes/)
 
 - [Assignments 1](https://docs.google.com/document/d/1IJo2jN_k6EzOgV0dzUAQwwjNsBohCcDou44ztYv_84g/edit?usp=sharing)
 - [Assignments 2](https://docs.google.com/presentation/d/1myG6JJ37fxbQILkVfZJHq8xefceV-3GFdfXEm4fokws/edit?usp=sharing)
-- [Assignments 2](https://docs.google.com/document/d/1eNhLfGaIxR-UHpE5gV_hiLN_-r0e4MJO7fGkP6kdicM/edit?usp=sharing)
+- [Assignments 3](https://docs.google.com/document/d/1eNhLfGaIxR-UHpE5gV_hiLN_-r0e4MJO7fGkP6kdicM/edit?usp=sharing)
