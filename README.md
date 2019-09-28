@@ -24,9 +24,11 @@ CSE 5324 SFWR ENG I ANLY, DSGN, TESTING (2019 Fall)
 
 ## Assignments
 
-- [Assignments 1](https://docs.google.com/document/d/1IJo2jN_k6EzOgV0dzUAQwwjNsBohCcDou44ztYv_84g/edit?usp=sharing)
-- [Assignments 2](https://docs.google.com/presentation/d/1myG6JJ37fxbQILkVfZJHq8xefceV-3GFdfXEm4fokws/edit?usp=sharing)
-- [Assignments 3](https://docs.google.com/document/d/1eNhLfGaIxR-UHpE5gV_hiLN_-r0e4MJO7fGkP6kdicM/edit?usp=sharing)
+- [Inception (Written Deliverable)](https://docs.google.com/document/d/1IJo2jN_k6EzOgV0dzUAQwwjNsBohCcDou44ztYv_84g/edit?usp=sharing)
+- [Inception Presentation](https://docs.google.com/presentation/d/1myG6JJ37fxbQILkVfZJHq8xefceV-3GFdfXEm4fokws/edit?usp=sharing)
+- [Inception Review](https://docs.google.com/document/d/1eNhLfGaIxR-UHpE5gV_hiLN_-r0e4MJO7fGkP6kdicM/edit?usp=sharing)
+- [Iteration 1](https://docs.google.com/document/d/1-qY5qXriTXqbxUEQjR6nKeO0LG0yl2M3o7effMt0gRM/edit?usp=sharing)
+- [Iteration 1 Presentation](https://docs.google.com/presentation/d/1oAikCUBH385KhQpvxDs15dvjXaxL5QKaT7NBQhF2p_M/edit?usp=sharing)
 
 ## Quizzes
 
