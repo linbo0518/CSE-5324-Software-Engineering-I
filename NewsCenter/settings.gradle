@@ -1,2 +1,1 @@
-include ':app', ':model', ':common'
-rootProject.name='News Center'
+include ':app', ':model', ':common', ':domain', ':share', ':swipebacklayout'

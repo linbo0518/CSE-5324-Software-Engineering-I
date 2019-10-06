@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.pm.PackageManager;
 
 public class AppUtil {
+
     public static boolean isAppInstalled(Context context, String packageName) {
         PackageManager pm = context.getPackageManager();
         boolean installed;
