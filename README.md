@@ -29,6 +29,7 @@ CSE 5324 SFWR ENG I ANLY, DSGN, TESTING (2019 Fall)
 - [Inception Review](https://docs.google.com/document/d/1eNhLfGaIxR-UHpE5gV_hiLN_-r0e4MJO7fGkP6kdicM/edit?usp=sharing)
 - [Iteration 1](https://docs.google.com/document/d/1-qY5qXriTXqbxUEQjR6nKeO0LG0yl2M3o7effMt0gRM/edit?usp=sharing)
 - [Iteration 1 Presentation](https://docs.google.com/presentation/d/1oAikCUBH385KhQpvxDs15dvjXaxL5QKaT7NBQhF2p_M/edit?usp=sharing)
+- [Iteration 1 Review](https://docs.google.com/document/d/14_RzDmZpvLtNvN-sXlkuu7_qQcQYKgsmR2dSgdqHaVc/edit?usp=sharing)
 
 ## Quizzes
 
