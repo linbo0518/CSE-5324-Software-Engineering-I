@@ -32,6 +32,7 @@ CSE 5324 SFWR ENG I ANLY, DSGN, TESTING (2019 Fall)
 - [Iteration 1 Review](https://docs.google.com/document/d/14_RzDmZpvLtNvN-sXlkuu7_qQcQYKgsmR2dSgdqHaVc/edit?usp=sharing)
 - [Iteration 2](https://docs.google.com/document/d/1-eZaj7aniZDOQ-G8dZP_xR8oPFjPLgfdtlx_Lr1sIDw/edit?usp=sharing)
 - [Iteration 2 Presentation](https://docs.google.com/presentation/d/1wHvR9pjwq8X4wNKm5_D8UrRzrvNTtMvoxeitO_cZ4fc/edit?usp=sharing)
+- [Iteration 2 Review](https://docs.google.com/document/d/1nFwWfL1gSN1L6AoR_4fE9cNS4t1S3VDchkXyfhYLJ9Y/edit?usp=sharing)
 
 ## Quizzes
 
