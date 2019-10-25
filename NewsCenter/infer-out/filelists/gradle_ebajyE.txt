@@ -1,0 +1,7 @@
+/Users/linbo0518/Downloads/feeder/mindb/build/generated/source/buildConfig/release/com/crazyhitty/chdev/ks/mindb/BuildConfig.java
+/Users/linbo0518/Downloads/feeder/mindb/build/generated/source/r/release/com/crazyhitty/chdev/ks/mindb/R.java
+/Users/linbo0518/Downloads/feeder/mindb/build/generated/source/r/release/android/support/v7/appcompat/R.java
+/Users/linbo0518/Downloads/feeder/mindb/src/main/java/com/crazyhitty/chdev/ks/mindb/OnDatabaseListener.java
+/Users/linbo0518/Downloads/feeder/mindb/src/main/java/com/crazyhitty/chdev/ks/mindb/DatabaseOperations.java
+/Users/linbo0518/Downloads/feeder/mindb/src/main/java/com/crazyhitty/chdev/ks/mindb/DatabaseAdapter.java
+/Users/linbo0518/Downloads/feeder/mindb/src/main/java/com/crazyhitty/chdev/ks/mindb/DatabaseHelper.java

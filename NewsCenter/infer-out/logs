@@ -1,0 +1,503 @@
+[66168][environment] CWD = /Users/linbo0518/Downloads/feeder
+[66168][environment] No .inferconfig file found
+[66168][environment] Project root = /Users/linbo0518/Downloads/feeder
+[66168][environment] INFER_ARGS =   @/var/folders/xf/p0r60kx9151fssf02t076bqr0000gn/T/args.tmp.efd989
+[66168][environment]   ++Contents of '/var/folders/xf/p0r60kx9151fssf02t076bqr0000gn/T/args.tmp.efd989':
+[66168][environment]     run --biabduction --fragment-retains-view --linters --liveness
+[66168][environment]     --ownership --racerd --siof --uninit --no-annotation-reachability
+[66168][environment]     --no-bufferoverrun --no-cost --no-eradicate --no-immutable-cast
+[66168][environment]     --no-printf-args --no-quandary --no-starvation --no-litho
+[66168][environment]   
+[66168][environment] command line arguments:   /usr/local/bin/infer run --biabduction
+[66168][environment]                           --fragment-retains-view --linters --liveness
+[66168][environment]                           --ownership --racerd --siof --uninit
+[66168][environment]                           --no-annotation-reachability --no-bufferoverrun
+[66168][environment]                           --no-cost --no-eradicate --no-immutable-cast
+[66168][environment]                           --no-printf-args --no-quandary --no-starvation
+[66168][environment]                           --no-litho -- ./gradlew clean buildAnalyzer: checkers
+[66168][environment] Active checkers: biabduction (C/C++/ObjC, Java), fragment retains view (Java), liveness (C/C++/ObjC), ownership (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC)
+[66168][environment] Infer log identifier is 
+Infer version v0.15.0
+[66168][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[66168][environment] 
+[66168][   progress] Capturing in gradle mode...
+
+[66284][environment] CWD = /Users/linbo0518/Downloads/feeder
+[66284][environment] No .inferconfig file found
+[66284][environment] Project root = /Users/linbo0518/Downloads/feeder
+[66284][environment] INFER_ARGS =   @/var/folders/xf/p0r60kx9151fssf02t076bqr0000gn/T/args.tmp.1ee6b3
+[66284][environment]   ++Contents of '/var/folders/xf/p0r60kx9151fssf02t076bqr0000gn/T/args.tmp.1ee6b3':
+[66284][environment]     @/var/folders/xf/p0r60kx9151fssf02t076bqr0000gn/T/args.tmp.efd989 capture
+[66284][environment]     --continue
+[66284][environment]     ++Contents of '/var/folders/xf/p0r60kx9151fssf02t076bqr0000gn/T/args.tmp.efd989':
+[66284][environment]       run --biabduction --fragment-retains-view --linters --liveness
+[66284][environment]       --ownership --racerd --siof --uninit --no-annotation-reachability
+[66284][environment]       --no-bufferoverrun --no-cost --no-eradicate --no-immutable-cast
+[66284][environment]       --no-printf-args --no-quandary --no-starvation --no-litho
+[66284][environment]     
+[66284][environment]   
+[66284][environment] command line arguments:   /usr/local/Cellar/infer/0.15.0/lib/infer/infer/lib/python/inferlib/../../../bin/infer
+[66284][environment]                           capture --continue -- javac -source 1.7 -target 1.7
+[66284][environment]                           -d
+[66284][environment]                           /Users/linbo0518/Downloads/feeder/mindb/build/intermediates/classes/release
+[66284][environment]                           -g -encoding UTF-8 -bootclasspath
+[66284][environment]                           /Users/linbo0518/Library/Android/sdk/platforms/android-24/android.jar
+[66284][environment]                           -sourcepath
+[66284][environment]                           /Users/linbo0518/Downloads/feeder/mindb/build/tmp/compileReleaseJavaWithJavac/emptySourcePathRef
+[66284][environment]                           -classpath
+[66284][environment]                           /Users/linbo0518/Downloads/feeder/mindb/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar:/Users/linbo0518/Downloads/feeder/mindb/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar:/Users/linbo0518/Downloads/feeder/mindb/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar:/Users/linbo0518/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar
+[66284][environment]                           -XDuseUnsharedTable=true
+[66284][environment]                           @/Users/linbo0518/Downloads/feeder/infer-out/filelists/gradle_ebajyE.txt
+[66284][environment]   ++Contents of '/Users/linbo0518/Downloads/feeder/infer-out/filelists/gradle_ebajyE.txt':
+[66284][environment]     /Users/linbo0518/Downloads/feeder/mindb/build/generated/source/buildConfig/release/com/crazyhitty/chdev/ks/mindb/BuildConfig.java
+[66284][environment]     /Users/linbo0518/Downloads/feeder/mindb/build/generated/source/r/release/com/crazyhitty/chdev/ks/mindb/R.java
+[66284][environment]     /Users/linbo0518/Downloads/feeder/mindb/build/generated/source/r/release/android/support/v7/appcompat/R.java
+[66284][environment]     /Users/linbo0518/Downloads/feeder/mindb/src/main/java/com/crazyhitty/chdev/ks/mindb/OnDatabaseListener.java
+[66284][environment]     /Users/linbo0518/Downloads/feeder/mindb/src/main/java/com/crazyhitty/chdev/ks/mindb/DatabaseOperations.java
+[66284][environment]     /Users/linbo0518/Downloads/feeder/mindb/src/main/java/com/crazyhitty/chdev/ks/mindb/DatabaseAdapter.java
+[66284][environment]     /Users/linbo0518/Downloads/feeder/mindb/src/main/java/com/crazyhitty/chdev/ks/mindb/DatabaseHelper.java
+[66284][environment]   
+[66284][environment] Analyzer: capture
+[66284][environment] Active checkers: biabduction (C/C++/ObjC, Java), fragment retains view (Java), liveness (C/C++/ObjC), ownership (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC)
+[66284][      debug] Current working directory: '/Users/linbo0518/Downloads/feeder'
+[66284][      debug] Trying to execute: javac '-J-Duser.language=en' '@/Users/linbo0518/Downloads/feeder/infer-out/filelists/gradle_ebajyE.txt' '@/var/folders/xf/p0r60kx9151fssf02t076bqr0000gn/T/args_.tmp.7881c1' 2>'/var/folders/xf/p0r60kx9151fssf02t076bqr0000gn/T/javac.tmp.8a48d3.out'
+[66284][      debug] *** Success. Logs:
+[66284][      debug] Translating 6 source files (32 classes)
+[66284][      debug] done capturing all files
+[66284][environment] Infer log identifier is 
+
+[66291][environment] CWD = /Users/linbo0518/Downloads/feeder
+[66291][environment] No .inferconfig file found
+[66291][environment] Project root = /Users/linbo0518/Downloads/feeder
+[66291][environment] INFER_ARGS =   @/var/folders/xf/p0r60kx9151fssf02t076bqr0000gn/T/args.tmp.220e26
+[66291][environment]   ++Contents of '/var/folders/xf/p0r60kx9151fssf02t076bqr0000gn/T/args.tmp.220e26':
+[66291][environment]     @/var/folders/xf/p0r60kx9151fssf02t076bqr0000gn/T/args.tmp.efd989 capture
+[66291][environment]     --continue
+[66291][environment]     ++Contents of '/var/folders/xf/p0r60kx9151fssf02t076bqr0000gn/T/args.tmp.efd989':
+[66291][environment]       run --biabduction --fragment-retains-view --linters --liveness
+[66291][environment]       --ownership --racerd --siof --uninit --no-annotation-reachability
+[66291][environment]       --no-bufferoverrun --no-cost --no-eradicate --no-immutable-cast
+[66291][environment]       --no-printf-args --no-quandary --no-starvation --no-litho
+[66291][environment]     
+[66291][environment]   
+[66291][environment] command line arguments:   /usr/local/Cellar/infer/0.15.0/lib/infer/infer/lib/python/inferlib/../../../bin/infer
+[66291][environment]                           capture --continue -- javac -source 1.7 -target 1.7
+[66291][environment]                           -d
+[66291][environment]                           /Users/linbo0518/Downloads/feeder/rssmanager/build/intermediates/classes/release
+[66291][environment]                           -g -encoding UTF-8 -bootclasspath
+[66291][environment]                           /Users/linbo0518/Library/Android/sdk/platforms/android-24/android.jar
+[66291][environment]                           -sourcepath
+[66291][environment]                           /Users/linbo0518/Downloads/feeder/rssmanager/build/tmp/compileReleaseJavaWithJavac/emptySourcePathRef
+[66291][environment]                           -classpath
+[66291][environment]                           /Users/linbo0518/Downloads/feeder/rssmanager/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar:/Users/linbo0518/Downloads/feeder/rssmanager/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.6/jars/classes.jar:/Users/linbo0518/Downloads/feeder/rssmanager/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar:/Users/linbo0518/Downloads/feeder/rssmanager/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar:/Users/linbo0518/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar:/Users/linbo0518/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.7.2/d7e275ba05aa380ca254f72d0c0ffebaedc3adcf/jsoup-1.7.2.jar
+[66291][environment]                           -XDuseUnsharedTable=true
+[66291][environment]                           @/Users/linbo0518/Downloads/feeder/infer-out/filelists/gradle_ThUgnU.txt
+[66291][environment]   ++Contents of '/Users/linbo0518/Downloads/feeder/infer-out/filelists/gradle_ThUgnU.txt':
+[66291][environment]     /Users/linbo0518/Downloads/feeder/rssmanager/build/generated/source/buildConfig/release/com/crazyhitty/chdev/ks/rssmanager/BuildConfig.java
+[66291][environment]     /Users/linbo0518/Downloads/feeder/rssmanager/build/generated/source/r/release/com/afollestad/materialdialogs/R.java
+[66291][environment]     /Users/linbo0518/Downloads/feeder/rssmanager/build/generated/source/r/release/com/crazyhitty/chdev/ks/rssmanager/R.java
+[66291][environment]     /Users/linbo0518/Downloads/feeder/rssmanager/build/generated/source/r/release/android/support/v7/appcompat/R.java
+[66291][environment]     /Users/linbo0518/Downloads/feeder/rssmanager/src/main/java/com/crazyhitty/chdev/ks/rssmanager/RssItem.java
+[66291][environment]     /Users/linbo0518/Downloads/feeder/rssmanager/src/main/java/com/crazyhitty/chdev/ks/rssmanager/RssReader.java
+[66291][environment]     /Users/linbo0518/Downloads/feeder/rssmanager/src/main/java/com/crazyhitty/chdev/ks/rssmanager/OnFeedLoadListener.java
+[66291][environment]     /Users/linbo0518/Downloads/feeder/rssmanager/src/main/java/com/crazyhitty/chdev/ks/rssmanager/RssParser.java
+[66291][environment]     /Users/linbo0518/Downloads/feeder/rssmanager/src/main/java/com/crazyhitty/chdev/ks/rssmanager/OnRssLoadListener.java
+[66291][environment]   
+[66291][environment] Analyzer: capture
+[66291][environment] Active checkers: biabduction (C/C++/ObjC, Java), fragment retains view (Java), liveness (C/C++/ObjC), ownership (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC)
+[66291][      debug] Current working directory: '/Users/linbo0518/Downloads/feeder'
+[66291][      debug] Trying to execute: javac '-J-Duser.language=en' '@/Users/linbo0518/Downloads/feeder/infer-out/filelists/gradle_ThUgnU.txt' '@/var/folders/xf/p0r60kx9151fssf02t076bqr0000gn/T/args_.tmp.ac80d2' 2>'/var/folders/xf/p0r60kx9151fssf02t076bqr0000gn/T/javac.tmp.babb15.out'
+[66291][      debug] *** Success. Logs:
+[66291][      debug] Translating 7 source files (47 classes)
+[66291][      debug] done capturing all files
+[66291][environment] Infer log identifier is 
+
+[66298][environment] CWD = /Users/linbo0518/Downloads/feeder
+[66298][environment] No .inferconfig file found
+[66298][environment] Project root = /Users/linbo0518/Downloads/feeder
+[66298][environment] INFER_ARGS =   @/var/folders/xf/p0r60kx9151fssf02t076bqr0000gn/T/args.tmp.49ecab
+[66298][environment]   ++Contents of '/var/folders/xf/p0r60kx9151fssf02t076bqr0000gn/T/args.tmp.49ecab':
+[66298][environment]     @/var/folders/xf/p0r60kx9151fssf02t076bqr0000gn/T/args.tmp.efd989 capture
+[66298][environment]     --continue
+[66298][environment]     ++Contents of '/var/folders/xf/p0r60kx9151fssf02t076bqr0000gn/T/args.tmp.efd989':
+[66298][environment]       run --biabduction --fragment-retains-view --linters --liveness
+[66298][environment]       --ownership --racerd --siof --uninit --no-annotation-reachability
+[66298][environment]       --no-bufferoverrun --no-cost --no-eradicate --no-immutable-cast
+[66298][environment]       --no-printf-args --no-quandary --no-starvation --no-litho
+[66298][environment]     
+[66298][environment]   
+[66298][environment] command line arguments:   /usr/local/Cellar/infer/0.15.0/lib/infer/infer/lib/python/inferlib/../../../bin/infer
+[66298][environment]                           capture --continue -- javac -source 1.7 -target 1.7
+[66298][environment]                           -d
+[66298][environment]                           /Users/linbo0518/Downloads/feeder/app/build/intermediates/classes/debug
+[66298][environment]                           -g -encoding UTF-8 -bootclasspath
+[66298][environment]                           /Users/linbo0518/Library/Android/sdk/platforms/android-24/android.jar
+[66298][environment]                           -sourcepath
+[66298][environment]                           /Users/linbo0518/Downloads/feeder/app/build/tmp/compileDebugJavaWithJavac/emptySourcePathRef
+[66298][environment]                           -classpath
+[66298][environment]                           /Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.github.ozodrukh/CircularReveal/1.1.1/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/me.zhanghai.android.materialprogressbar/library/1.4.0/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/feeder/mindb/unspecified/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar:/Users/linbo0518/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.6/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/commons/0.8.5.6/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.github.clans/fab/1.6.1/jars/classes.jar:/Users/linbo0518/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.7.2/d7e275ba05aa380ca254f72d0c0ffebaedc3adcf/jsoup-1.7.2.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.rengwuxian.materialedittext/library/2.1.4/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar:/Users/linbo0518/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.0.0-RC1/be7e96331952019f16dc52dce09ab25df29353d7/okhttp-3.0.0-RC1.jar:/Users/linbo0518/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar:/Users/linbo0518/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar:/Users/linbo0518/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.1/86b122e640af09b0723e1fa44083c354ba6d9089/glide-3.6.1.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.0/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/feeder/rssmanager/unspecified/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar:/Users/linbo0518/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar
+[66298][environment]                           -XDuseUnsharedTable=true
+[66298][environment]                           @/Users/linbo0518/Downloads/feeder/infer-out/filelists/gradle_QhXWMI.txt
+[66298][environment]   ++Contents of '/Users/linbo0518/Downloads/feeder/infer-out/filelists/gradle_QhXWMI.txt':
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/buildConfig/debug/com/crazyhitty/chdev/ks/munch/BuildConfig.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/r/debug/com/github/clans/fab/R.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/r/debug/com/rengwuxian/materialedittext/R.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/r/debug/com/afollestad/materialdialogs/R.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/r/debug/com/afollestad/materialdialogs/commons/R.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/r/debug/com/crazyhitty/chdev/ks/rssmanager/R.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/r/debug/com/crazyhitty/chdev/ks/mindb/R.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/r/debug/com/crazyhitty/chdev/ks/munch/R.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/r/debug/android/support/v7/cardview/R.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/r/debug/android/support/v7/recyclerview/R.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/r/debug/android/support/transition/R.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/r/debug/android/support/design/R.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/r/debug/me/zhanghai/android/materialprogressbar/R.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/importopml/IImportOpmlInteractor.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/importopml/IImportOpmlView.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/importopml/ImportOpmlInteractor.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/importopml/OnOpmlImportListener.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/importopml/IImportOpmlPresenter.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/importopml/ImportOpmlPresenter.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/services/SyncArticlesIntentService.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/article/IArticleView.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/article/OnArticleArchivedListener.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/article/ArticleInteractor.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/article/ArticlePresenter.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/article/IArticleInteractor.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/article/OnArticleRemoveListener.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/article/IArticlePresenter.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/article/OnArticleLoadedListener.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/sources/ISourceInteractor.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/sources/SourceInteractor.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/sources/ISourcePresenter.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/sources/OnSourcesLoadedListener.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/sources/OnSourceSavedListener.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/sources/SourcesPresenter.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/sources/OnSourcesModifyListener.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/sources/ISourceView.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/curatedfeeds/ICuratedFeedsView.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/curatedfeeds/ICuratedFeedsPresenter.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/curatedfeeds/OnCuratedFeedsRetrievedListener.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/curatedfeeds/CuratedFeedsInteractor.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/curatedfeeds/ICuratedFeedsInteractor.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/curatedfeeds/CuratedFeedsPresenter.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/feeds/IFeedsPresenter.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/feeds/FeedsPresenter.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/feeds/FeedsLoaderInteractor.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/feeds/OnFeedsLoadedListener.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/feeds/IFeedsLoaderInteractor.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/feeds/IFeedsView.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/receivers/SyncArticlesReceiver.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/models/Categories.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/models/FeedItem.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/models/CategoryItem.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/models/SettingsPreferences.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/models/SourceItem.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/models/LibraryItem.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/WebsiteIntentUtil.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/AnimationUtil.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/DatabaseUtil.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/ItemAnimatorUtil.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/DateUtil.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/ColorsUtil.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/FadePageTransformerUtil.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/ItemDecorationUtil.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/FadeAnimationUtil.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/NetworkConnectionUtil.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/comparator/FeedCategoryComparator.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/comparator/FeedPubDateComparator.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/comparator/FeedTitleComparator.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/UrlUtil.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/archive/ArchiveInteractor.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/archive/OnArticleRetrievedListener.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/archive/IArchivePresenter.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/archive/IArchiveView.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/archive/IArchiveInteractor.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/archive/ArchivePresenter.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/views/CustomCheckBoxListPreferenceDialog.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/views/CustomListPreferenceDialog.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/views/CustomPreferenceDialog.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/activities/SettingsActivity.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/activities/HomeActivity.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/activities/ArticleActivity.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/activities/SplashActivity.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/adapters/CategoryListAdapter.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/adapters/SourcesRecyclerViewAdapter.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/adapters/FeedsRecyclerViewAdapter.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/adapters/LibrariesRecyclerViewAdapter.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/adapters/SplashPagerAdapter.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/fragments/SplashFragment.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/fragments/FeedsFragment.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/fragments/ManageSourcesFragment.java
+[66298][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/fragments/ArchiveFragment.java
+[66298][environment]   
+[66298][environment] Analyzer: capture
+[66298][environment] Active checkers: biabduction (C/C++/ObjC, Java), fragment retains view (Java), liveness (C/C++/ObjC), ownership (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC)
+[66298][      debug] Current working directory: '/Users/linbo0518/Downloads/feeder'
+[66298][      debug] Trying to execute: javac '-J-Duser.language=en' '@/Users/linbo0518/Downloads/feeder/infer-out/filelists/gradle_QhXWMI.txt' '@/var/folders/xf/p0r60kx9151fssf02t076bqr0000gn/T/args_.tmp.d26f31' 2>'/var/folders/xf/p0r60kx9151fssf02t076bqr0000gn/T/javac.tmp.3cb7ce.out'
+[66298][      debug] *** Success. Logs:
+[66298][      debug] Translating 88 source files (268 classes)
+[66298][ intern err] cannot find android.support.v7.appcompat.R$styleable.AppCompatImageView
+[66298][ intern err] Skipping because of: Cannot find fieldname
+[66298][ intern err] cannot find android.support.v7.appcompat.R$styleable.AppCompatSeekBar
+[66298][ intern err] Skipping because of: Cannot find fieldname
+[66298][ intern err] cannot find android.support.v7.appcompat.R$styleable.AppCompatTextHelper
+[66298][ intern err] Skipping because of: Cannot find fieldname
+[66298][ intern err] cannot find android.support.v7.appcompat.R$styleable.AppCompatTheme
+[66298][ intern err] Skipping because of: Cannot find fieldname
+[66298][ intern err] cannot find android.support.v7.appcompat.R$styleable.ButtonBarLayout
+[66298][ intern err] Skipping because of: Cannot find fieldname
+[66298][ intern err] cannot find android.support.v7.appcompat.R$styleable.ColorStateListItem
+[66298][ intern err] Skipping because of: Cannot find fieldname
+[66298][ intern err] cannot find android.support.v7.appcompat.R$styleable.RecycleListView
+[66298][ intern err] Skipping because of: Cannot find fieldname
+[66298][ intern err] cannot find com.afollestad.materialdialogs.R$styleable.AppCompatImageView
+[66298][ intern err] Skipping because of: Cannot find fieldname
+[66298][ intern err] cannot find com.afollestad.materialdialogs.R$styleable.AppCompatTheme
+[66298][ intern err] Skipping because of: Cannot find fieldname
+[66298][ intern err] cannot find com.afollestad.materialdialogs.R$styleable.ButtonBarLayout
+[66298][ intern err] Skipping because of: Cannot find fieldname
+[66298][ intern err] cannot find com.afollestad.materialdialogs.R$styleable.MaterialProgressBar
+[66298][ intern err] Skipping because of: Cannot find fieldname
+[66298][ intern err] cannot find com.afollestad.materialdialogs.R$styleable.RecyclerView
+[66298][ intern err] Skipping because of: Cannot find fieldname
+[66298][      debug] done capturing all files
+[66298][environment] Infer log identifier is 
+
+[66305][environment] CWD = /Users/linbo0518/Downloads/feeder
+[66305][environment] No .inferconfig file found
+[66305][environment] Project root = /Users/linbo0518/Downloads/feeder
+[66305][environment] INFER_ARGS =   @/var/folders/xf/p0r60kx9151fssf02t076bqr0000gn/T/args.tmp.21a2ef
+[66305][environment]   ++Contents of '/var/folders/xf/p0r60kx9151fssf02t076bqr0000gn/T/args.tmp.21a2ef':
+[66305][environment]     @/var/folders/xf/p0r60kx9151fssf02t076bqr0000gn/T/args.tmp.efd989 capture
+[66305][environment]     --continue
+[66305][environment]     ++Contents of '/var/folders/xf/p0r60kx9151fssf02t076bqr0000gn/T/args.tmp.efd989':
+[66305][environment]       run --biabduction --fragment-retains-view --linters --liveness
+[66305][environment]       --ownership --racerd --siof --uninit --no-annotation-reachability
+[66305][environment]       --no-bufferoverrun --no-cost --no-eradicate --no-immutable-cast
+[66305][environment]       --no-printf-args --no-quandary --no-starvation --no-litho
+[66305][environment]     
+[66305][environment]   
+[66305][environment] command line arguments:   /usr/local/Cellar/infer/0.15.0/lib/infer/infer/lib/python/inferlib/../../../bin/infer
+[66305][environment]                           capture --continue -- javac -source 1.7 -target 1.7
+[66305][environment]                           -d
+[66305][environment]                           /Users/linbo0518/Downloads/feeder/app/build/intermediates/classes/release
+[66305][environment]                           -g -encoding UTF-8 -bootclasspath
+[66305][environment]                           /Users/linbo0518/Library/Android/sdk/platforms/android-24/android.jar
+[66305][environment]                           -sourcepath
+[66305][environment]                           /Users/linbo0518/Downloads/feeder/app/build/tmp/compileReleaseJavaWithJavac/emptySourcePathRef
+[66305][environment]                           -classpath
+[66305][environment]                           /Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.github.ozodrukh/CircularReveal/1.1.1/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/me.zhanghai.android.materialprogressbar/library/1.4.0/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/feeder/mindb/unspecified/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar:/Users/linbo0518/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/core/0.8.5.6/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.github.afollestad.material-dialogs/commons/0.8.5.6/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.github.clans/fab/1.6.1/jars/classes.jar:/Users/linbo0518/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.7.2/d7e275ba05aa380ca254f72d0c0ffebaedc3adcf/jsoup-1.7.2.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.rengwuxian.materialedittext/library/2.1.4/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar:/Users/linbo0518/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.0.0-RC1/be7e96331952019f16dc52dce09ab25df29353d7/okhttp-3.0.0-RC1.jar:/Users/linbo0518/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar:/Users/linbo0518/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar:/Users/linbo0518/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.1/86b122e640af09b0723e1fa44083c354ba6d9089/glide-3.6.1.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.0/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/feeder/rssmanager/unspecified/jars/classes.jar:/Users/linbo0518/Downloads/feeder/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar:/Users/linbo0518/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar
+[66305][environment]                           -XDuseUnsharedTable=true
+[66305][environment]                           @/Users/linbo0518/Downloads/feeder/infer-out/filelists/gradle_kKuP2G.txt
+[66305][environment]   ++Contents of '/Users/linbo0518/Downloads/feeder/infer-out/filelists/gradle_kKuP2G.txt':
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/buildConfig/release/com/crazyhitty/chdev/ks/munch/BuildConfig.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/r/release/com/github/clans/fab/R.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/r/release/com/rengwuxian/materialedittext/R.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/r/release/com/afollestad/materialdialogs/R.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/r/release/com/afollestad/materialdialogs/commons/R.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/r/release/com/crazyhitty/chdev/ks/rssmanager/R.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/r/release/com/crazyhitty/chdev/ks/mindb/R.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/r/release/com/crazyhitty/chdev/ks/munch/R.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/r/release/android/support/v7/cardview/R.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/r/release/android/support/v7/appcompat/R.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/r/release/android/support/v7/recyclerview/R.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/r/release/android/support/transition/R.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/r/release/android/support/design/R.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/build/generated/source/r/release/me/zhanghai/android/materialprogressbar/R.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/importopml/IImportOpmlInteractor.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/importopml/IImportOpmlView.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/importopml/ImportOpmlInteractor.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/importopml/OnOpmlImportListener.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/importopml/IImportOpmlPresenter.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/importopml/ImportOpmlPresenter.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/services/SyncArticlesIntentService.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/article/IArticleView.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/article/OnArticleArchivedListener.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/article/ArticleInteractor.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/article/ArticlePresenter.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/article/IArticleInteractor.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/article/OnArticleRemoveListener.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/article/IArticlePresenter.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/article/OnArticleLoadedListener.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/sources/ISourceInteractor.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/sources/SourceInteractor.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/sources/ISourcePresenter.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/sources/OnSourcesLoadedListener.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/sources/OnSourceSavedListener.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/sources/SourcesPresenter.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/sources/OnSourcesModifyListener.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/sources/ISourceView.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/curatedfeeds/ICuratedFeedsView.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/curatedfeeds/ICuratedFeedsPresenter.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/curatedfeeds/OnCuratedFeedsRetrievedListener.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/curatedfeeds/CuratedFeedsInteractor.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/curatedfeeds/ICuratedFeedsInteractor.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/curatedfeeds/CuratedFeedsPresenter.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/feeds/IFeedsPresenter.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/feeds/FeedsPresenter.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/feeds/FeedsLoaderInteractor.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/feeds/OnFeedsLoadedListener.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/feeds/IFeedsLoaderInteractor.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/feeds/IFeedsView.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/receivers/SyncArticlesReceiver.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/models/Categories.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/models/FeedItem.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/models/CategoryItem.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/models/SettingsPreferences.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/models/SourceItem.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/models/LibraryItem.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/WebsiteIntentUtil.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/AnimationUtil.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/DatabaseUtil.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/ItemAnimatorUtil.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/DateUtil.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/ColorsUtil.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/FadePageTransformerUtil.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/ItemDecorationUtil.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/FadeAnimationUtil.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/NetworkConnectionUtil.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/comparator/FeedCategoryComparator.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/comparator/FeedPubDateComparator.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/comparator/FeedTitleComparator.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/UrlUtil.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/archive/ArchiveInteractor.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/archive/OnArticleRetrievedListener.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/archive/IArchivePresenter.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/archive/IArchiveView.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/archive/IArchiveInteractor.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/archive/ArchivePresenter.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/views/CustomCheckBoxListPreferenceDialog.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/views/CustomListPreferenceDialog.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/views/CustomPreferenceDialog.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/activities/SettingsActivity.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/activities/HomeActivity.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/activities/ArticleActivity.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/activities/SplashActivity.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/adapters/CategoryListAdapter.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/adapters/SourcesRecyclerViewAdapter.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/adapters/FeedsRecyclerViewAdapter.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/adapters/LibrariesRecyclerViewAdapter.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/adapters/SplashPagerAdapter.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/fragments/SplashFragment.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/fragments/FeedsFragment.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/fragments/ManageSourcesFragment.java
+[66305][environment]     /Users/linbo0518/Downloads/feeder/app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/fragments/ArchiveFragment.java
+[66305][environment]   
+[66305][environment] Analyzer: capture
+[66305][environment] Active checkers: biabduction (C/C++/ObjC, Java), fragment retains view (Java), liveness (C/C++/ObjC), ownership (C/C++/ObjC), RacerD (C/C++/ObjC, Java), SIOF (C/C++/ObjC), uninitialized variables (C/C++/ObjC)
+[66305][      debug] Current working directory: '/Users/linbo0518/Downloads/feeder'
+[66305][      debug] Trying to execute: javac '-J-Duser.language=en' '@/Users/linbo0518/Downloads/feeder/infer-out/filelists/gradle_kKuP2G.txt' '@/var/folders/xf/p0r60kx9151fssf02t076bqr0000gn/T/args_.tmp.6438ed' 2>'/var/folders/xf/p0r60kx9151fssf02t076bqr0000gn/T/javac.tmp.2ce72e.out'
+[66305][      debug] *** Success. Logs:
+[66305][      debug] Translating 88 source files (268 classes)
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/AnimationUtil.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/fragments/ArchiveFragment.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/archive/ArchiveInteractor.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/archive/ArchivePresenter.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/activities/ArticleActivity.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/article/ArticleInteractor.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/article/ArticlePresenter.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/models/Categories.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/models/CategoryItem.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/adapters/CategoryListAdapter.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/ColorsUtil.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/curatedfeeds/CuratedFeedsInteractor.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/curatedfeeds/CuratedFeedsPresenter.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/views/CustomCheckBoxListPreferenceDialog.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/views/CustomListPreferenceDialog.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/views/CustomPreferenceDialog.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/DatabaseUtil.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/DateUtil.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/FadeAnimationUtil.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/FadePageTransformerUtil.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/comparator/FeedCategoryComparator.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/models/FeedItem.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/comparator/FeedPubDateComparator.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/comparator/FeedTitleComparator.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/fragments/FeedsFragment.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/feeds/FeedsLoaderInteractor.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/feeds/FeedsPresenter.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/adapters/FeedsRecyclerViewAdapter.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/activities/HomeActivity.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/archive/IArchiveInteractor.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/archive/IArchivePresenter.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/archive/IArchiveView.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/article/IArticleInteractor.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/article/IArticlePresenter.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/article/IArticleView.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/curatedfeeds/ICuratedFeedsInteractor.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/curatedfeeds/ICuratedFeedsPresenter.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/curatedfeeds/ICuratedFeedsView.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/feeds/IFeedsLoaderInteractor.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/feeds/IFeedsPresenter.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/feeds/IFeedsView.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/importopml/IImportOpmlInteractor.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/importopml/IImportOpmlPresenter.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/importopml/IImportOpmlView.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/sources/ISourceInteractor.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/sources/ISourcePresenter.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/sources/ISourceView.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/importopml/ImportOpmlInteractor.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/importopml/ImportOpmlPresenter.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/ItemAnimatorUtil.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/ItemDecorationUtil.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/adapters/LibrariesRecyclerViewAdapter.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/models/LibraryItem.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/fragments/ManageSourcesFragment.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/NetworkConnectionUtil.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/article/OnArticleArchivedListener.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/article/OnArticleLoadedListener.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/article/OnArticleRemoveListener.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/archive/OnArticleRetrievedListener.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/curatedfeeds/OnCuratedFeedsRetrievedListener.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/feeds/OnFeedsLoadedListener.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/importopml/OnOpmlImportListener.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/sources/OnSourceSavedListener.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/sources/OnSourcesLoadedListener.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/sources/OnSourcesModifyListener.java'
+[66305][      debug] 
+[66305][ intern err] cannot find android.support.v7.appcompat.R$styleable.AppCompatImageView
+[66305][ intern err] Skipping because of: Cannot find fieldname
+[66305][ intern err] cannot find android.support.v7.appcompat.R$styleable.AppCompatSeekBar
+[66305][ intern err] Skipping because of: Cannot find fieldname
+[66305][ intern err] cannot find android.support.v7.appcompat.R$styleable.AppCompatTextHelper
+[66305][ intern err] Skipping because of: Cannot find fieldname
+[66305][ intern err] cannot find android.support.v7.appcompat.R$styleable.AppCompatTheme
+[66305][ intern err] Skipping because of: Cannot find fieldname
+[66305][ intern err] cannot find android.support.v7.appcompat.R$styleable.ButtonBarLayout
+[66305][ intern err] Skipping because of: Cannot find fieldname
+[66305][ intern err] cannot find android.support.v7.appcompat.R$styleable.ColorStateListItem
+[66305][ intern err] Skipping because of: Cannot find fieldname
+[66305][ intern err] cannot find android.support.v7.appcompat.R$styleable.RecycleListView
+[66305][ intern err] Skipping because of: Cannot find fieldname
+[66305][ intern err] cannot find com.afollestad.materialdialogs.R$styleable.AppCompatImageView
+[66305][ intern err] Skipping because of: Cannot find fieldname
+[66305][ intern err] cannot find com.afollestad.materialdialogs.R$styleable.AppCompatTheme
+[66305][ intern err] Skipping because of: Cannot find fieldname
+[66305][ intern err] cannot find com.afollestad.materialdialogs.R$styleable.ButtonBarLayout
+[66305][ intern err] Skipping because of: Cannot find fieldname
+[66305][ intern err] cannot find com.afollestad.materialdialogs.R$styleable.MaterialProgressBar
+[66305][ intern err] Skipping because of: Cannot find fieldname
+[66305][ intern err] cannot find com.afollestad.materialdialogs.R$styleable.RecyclerView
+[66305][ intern err] Skipping because of: Cannot find fieldname
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/activities/SettingsActivity.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/models/SettingsPreferences.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/sources/SourceInteractor.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/models/SourceItem.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/sources/SourcesPresenter.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/adapters/SourcesRecyclerViewAdapter.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/activities/SplashActivity.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/fragments/SplashFragment.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/ui/adapters/SplashPagerAdapter.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/services/SyncArticlesIntentService.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/receivers/SyncArticlesReceiver.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/UrlUtil.java'
+[66305][      debug] Merging capture data for already-captured 'app/src/main/java/com/crazyhitty/chdev/ks/munch/utils/WebsiteIntentUtil.java'
+[66305][      debug] done capturing all files
+[66305][environment] Infer log identifier is 
+[66168][ intern err]   /usr/local/Cellar/infer/0.15.0/lib/infer/infer/bin/../lib/python/infer.py
+  -j 8 --project-root /Users/linbo0518/Downloads/feeder --out
+  /Users/linbo0518/Downloads/feeder/infer-out -- ./gradlew clean build:
+  exited with code 1
+[66168][ intern err] 

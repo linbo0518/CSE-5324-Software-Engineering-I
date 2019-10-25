@@ -1,0 +1,13 @@
+{
+  "version": 1.0,
+  "release_date": "2016-01-03",
+  "last_modified": "2016-09-01",
+  "curated_feeds": [
+    {
+      "source_name": "腾讯国内",
+      "source_url": "http:\/\/news.qq.com\/newsgn\/rss_newsgn.xml?format=xml",
+      "source_category": "Business"
+    }
+
+  ]
+}
