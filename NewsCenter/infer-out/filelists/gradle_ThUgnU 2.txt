@@ -1,9 +1,0 @@
-/Users/linbo0518/Downloads/feeder/rssmanager/build/generated/source/buildConfig/release/com/crazyhitty/chdev/ks/rssmanager/BuildConfig.java
-/Users/linbo0518/Downloads/feeder/rssmanager/build/generated/source/r/release/com/afollestad/materialdialogs/R.java
-/Users/linbo0518/Downloads/feeder/rssmanager/build/generated/source/r/release/com/crazyhitty/chdev/ks/rssmanager/R.java
-/Users/linbo0518/Downloads/feeder/rssmanager/build/generated/source/r/release/android/support/v7/appcompat/R.java
-/Users/linbo0518/Downloads/feeder/rssmanager/src/main/java/com/crazyhitty/chdev/ks/rssmanager/RssItem.java
-/Users/linbo0518/Downloads/feeder/rssmanager/src/main/java/com/crazyhitty/chdev/ks/rssmanager/RssReader.java
-/Users/linbo0518/Downloads/feeder/rssmanager/src/main/java/com/crazyhitty/chdev/ks/rssmanager/OnFeedLoadListener.java
-/Users/linbo0518/Downloads/feeder/rssmanager/src/main/java/com/crazyhitty/chdev/ks/rssmanager/RssParser.java
-/Users/linbo0518/Downloads/feeder/rssmanager/src/main/java/com/crazyhitty/chdev/ks/rssmanager/OnRssLoadListener.java
