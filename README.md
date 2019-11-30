@@ -24,6 +24,9 @@ CSE 5324 SFWR ENG I ANLY, DSGN, TESTING (2019 Fall)
 
 ## Assignments
 
+<details>
+<summary>Click to view</summary>
+
 - [Inception (Written Deliverable)](https://docs.google.com/document/d/1IJo2jN_k6EzOgV0dzUAQwwjNsBohCcDou44ztYv_84g/edit?usp=sharing)
 - [Inception Presentation](https://docs.google.com/presentation/d/1myG6JJ37fxbQILkVfZJHq8xefceV-3GFdfXEm4fokws/edit?usp=sharing)
 - [Inception Review](https://docs.google.com/document/d/1eNhLfGaIxR-UHpE5gV_hiLN_-r0e4MJO7fGkP6kdicM/edit?usp=sharing)
@@ -37,6 +40,10 @@ CSE 5324 SFWR ENG I ANLY, DSGN, TESTING (2019 Fall)
 - [Iteration 3 Presentation](https://docs.google.com/presentation/d/1cnUAhRvsr8ffYowh6nEqjbdM_0ARYMM6avfB7y-EV9s/edit?usp=sharing)
 - [Iteration 3 Review](https://docs.google.com/document/d/16mg0Ic9stUBGexm4AQNdrmzvzwCf8MP1F-c44K2_HdA/edit?usp=sharing)
 - [Tool Presentation](https://prezi.com/view/4aXh1pQsgVuFyX9NX1ZH/)
+- [Final Deliverables](https://docs.google.com/document/d/1uGj0-zFILm0zy4hwStc_iKRZkD72jxbmOi9ugFylbMo/edit?usp=sharing)
+- [Final Presentation](https://docs.google.com/presentation/d/1jNTfQNjraec1htYbTf9lR8ZwtI1ayIC5SVL6Y5xhbfA/edit?usp=sharing)
+
+</details>
 
 ## Quizzes
 
