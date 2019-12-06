@@ -1,0 +1,354 @@
+<resources>
+    <string name="app_name">News Center</string>
+    <string name="action_settings">Settings</string>
+    <string name="loading_feeds">Loading feeds</string>
+    <string name="cancel">Cancel</string>
+    <string name="feed_title">Feed title</string>
+    <string name="source">Source</string>
+    <string name="source_name">Source name</string>
+    <string name="feed_url">Feed URL</string>
+    <string name="save">Save</string>
+    <string name="add_feed_title">Add feed</string>
+    <string name="add_feed">Add feed</string>
+
+    <!--font-->
+    <string name="roboto_light">sans-serif-light</string>
+    <string name="roboto_condensed">sans-serif-condensed</string>
+    <string name="roboto">sans-serif</string>
+    <string name="roboto_medium">sans-serif-medium</string>
+    <string name="monospace">monospace</string>
+
+    <string name="category">Category</string>
+    <string name="add_category">Add Category</string>
+    <string name="source_url">Source URL</string>
+    <string name="pub_date">Publish date</string>
+    <string name="clear_feeds">Clear Feeds</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="category_names">
+        <item>Books</item>
+        <item>Business</item>
+        <item>Animation</item>
+        <item>Stocks</item>
+        <item>Economic</item>
+        <item>Education</item>
+        <item>Entertainment</item>
+        <item>Fashion</item>
+        <item>Fitness</item>
+        <item>Foods</item>
+        <item>Games</item>
+        <item>Hardware</item>
+        <item>International</item>
+        <item>Market</item>
+        <item>Music</item>
+        <item>Country</item>
+        <item>Politics</item>
+        <item>Productivity</item>
+        <item>Programming</item>
+        <item>Research</item>
+        <item>Science</item>
+        <item>Software</item>
+        <item>Space</item>
+        <item>Sport</item>
+        <item>Technology</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="category_drawables">
+        <item>@drawable/ic_book_24dp</item>
+        <item>@drawable/ic_business_24dp</item>
+        <item>@drawable/ic_comics_24dp</item>
+        <item>@drawable/ic_economics_24dp</item>
+        <item>@drawable/ic_education_24dp</item>
+        <item>@drawable/ic_entertainment_24dp</item>
+        <item>@drawable/ic_fashion_24dp</item>
+        <item>@drawable/ic_finance_24dp</item>
+        <item>@drawable/ic_fitness_24dp</item>
+        <item>@drawable/ic_food_24dp</item>
+        <item>@drawable/ic_gaming_24dp</item>
+        <item>@drawable/ic_hardware_24dp</item>
+        <item>@drawable/ic_international_24dp</item>
+        <item>@drawable/ic_marketing_24dp</item>
+        <item>@drawable/ic_music_24dp</item>
+        <item>@drawable/ic_national_24dp</item>
+        <item>@drawable/ic_politics_24dp</item>
+        <item>@drawable/ic_productivity_24dp</item>
+        <item>@drawable/ic_programming_24dp</item>
+        <item>@drawable/ic_research_24dp</item>
+        <item>@drawable/ic_science_24dp</item>
+        <item>@drawable/ic_software_24dp</item>
+        <item>@drawable/ic_space_24dp</item>
+        <item>@drawable/ic_sports_24dp</item>
+        <item>@drawable/ic_technology_24dp</item>
+        <item>@drawable/ic_unknown_24dp</item>
+    </string-array>
+
+
+    <string-array name="feed_table_columns">
+        <item>item_name</item>
+        <item>item_desc</item>
+        <item>item_link</item>
+        <item>item_img_url</item>
+        <item>item_category</item>
+        <item>item_source</item>
+        <item>item_source_url</item>
+        <item>item_pub_date</item>
+        <item>item_category_img_id</item>
+        <item>item_desc_web</item>
+    </string-array>
+
+    <string-array name="source_table_columns">
+        <item>source_name</item>
+        <item>source_url</item>
+        <item>source_category</item>
+        <item>source_category_img_id</item>
+    </string-array>
+
+    <string-array name="article_table_columns">
+        <item>article_name</item>
+        <item>article_desc</item>
+        <item>article_link</item>
+        <item>article_img_url</item>
+        <item>article_category</item>
+        <item>article_source</item>
+        <item>article_source_url</item>
+        <item>article_pub_date</item>
+        <item>article_category_img_id</item>
+        <item>article_content</item>
+    </string-array>
+
+    <string name="title_activity_article">ArticleActivity</string>
+    <string name="action_share">Share</string>
+    <string name="action_archive">Archive</string>
+    <string name="content">Content</string>
+    <string name="please_wait">Please wait</string>
+    <string name="loading">Loading</string>
+    <string name="nav_feeds">Feeds</string>
+    <string name="nav_manage_feeds">Manage Feeds</string>
+    <string name="nav_other">Other</string>
+    <string name="nav_extra">Extra</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about">About</string>
+    <string name="nav_archive">Archive</string>
+    <string name="remove_archive">Remove from archive</string>
+    <string name="remove_archive_content">This content will be removed from your archive</string>
+    <string name="remove">Remove</string>
+    <string name="nav_manage_sources">Manage</string>
+    <string name="modify_source">Modify Source</string>
+    <string name="modify">Modify</string>
+    <string name="delete">Delete</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="sort">Sort</string>
+    <string name="sort_feeds">Sort feeds</string>
+
+    <string-array name="sort_feeds_types">
+        <item>Random</item>
+        <item>Feed title</item>
+        <item>Category</item>
+        <item>Publish Date</item>
+    </string-array>
+
+    <!-- Strings related to Settings -->
+    <string name="perf_ui">User interface</string>
+
+    <string name="perf_feeds">Feed</string>
+    <string name="perf_feeds_font_size">Feed font size</string>
+    <string name="perf_feeds_font_size_desc">管理RSS订阅的字体大小</string>
+    <string name="perf_feeds_font_size_key">perf_feeds_font_size</string>
+
+    <string-array name="perf_feeds_font_size_entries">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+
+    <string-array name="perf_feeds_font_size_entry_values">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+
+    <string name="perf_article">Article</string>
+    <string name="perf_article_font_size">标题字体大小</string>
+    <string name="perf_article_font_size_desc">管理标题字体大小</string>
+    <string name="perf_article_font_size_key">perf_article_font_size</string>
+
+    <string-array name="perf_article_font_size_entries">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+
+    <string-array name="perf_article_font_size_entry_values">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+
+    <string name="perf_small">Small</string>
+    <string name="perf_medium">Medium</string>
+    <string name="perf_large">Large</string>
+
+    <string name="perf_feeds_anim">启动动画</string>
+    <string name="perf_feeds_anim_desc_enabled">如果关闭，会提速</string>
+    <string name="perf_feeds_anim_desc_disabled">如果启用，会变慢</string>
+    <string name="perf_feeds_anim_key">perf_feeds_anim_key</string>
+
+    <string name="perf_sources_anim">启动源动画</string>
+    <string name="perf_sources_anim_desc_enabled">如果关闭，会提速</string>
+    <string name="perf_sources_anim_desc_disabled">如果启用，会变慢</string>
+    <string name="perf_sources_anim_key">perf_sources_anim_key</string>
+
+    <string name="perf_circular_reveal">启用循环显示动画</string>
+    <string name="perf_circular_reveal_desc_enabled">如果禁用，你将看不到添加源屏幕上的一个圆形显示动画</string>
+    <string name="perf_circular_reveal_desc_disabled">如果启用，你会看到添加源屏幕上的一个圆形显示动画</string>
+    <string name="perf_circular_reveal_key">perf_circular_reveal_key</string>
+
+    <string name="perf_curated_feeds">策划订阅</string>
+
+    <string name="perf_curated_feeds_import">导入源</string>
+    <string name="perf_curated_feeds_import_desc">导入一些互联网上最好的RSS订阅源</string>
+    <string name="perf_curated_feeds_import_key">perf_curated_feeds_import_key</string>
+
+    <string-array name="perf_curated_feeds_import_empty" />
+
+    <string name="perf_curated_feeds_submit">提交策划订阅</string>
+    <string name="perf_curated_feeds_submit_desc">提交自己的RSS源，有助于改善当前的策划列表</string>
+    <string name="perf_curated_feeds_submit_key">perf_curated_feeds_submit_key</string>
+
+    <string-array name="perf_curated_feeds_submit_empty" />
+
+    <string name="perf_theme">管理主题</string>
+    <string name="perf_theme_desc">改变程序主题</string>
+    <string name="perf_theme_key">perf_theme</string>
+    <string name="perf_theme_default_value">Light</string>
+
+    <string-array name="perf_theme_entries">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string-array name="perf_theme_values">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string name="perf_in_app_browser">启用内置浏览器</string>
+    <string name="perf_in_app_browser_desc_enabled">如果禁用，应用程序将通过标准浏览器打开链接</string>
+    <string name="perf_in_app_browser_desc_disabled">如果启用，应用程序将打开链接通过在应用程序的浏览器</string>
+    <string name="perf_in_app_browser_key">perf_in_app_browser_key</string>
+
+    <string name="perf_import_opml">导入Opml文件</string>
+    <string name="perf_import_opml_desc">从OPML文件中导入自定义的来源，无论是从一个网址或文件</string>
+    <string name="perf_import_opml_key">perf_import_opml_files</string>
+    <string name="perf_import_opml_default_value">Light</string>
+
+    <string-array name="perf_import_opml_entries">
+        <item>来自地址</item>
+        <item>来自文件</item>
+    </string-array>
+
+    <string-array name="perf_import_opml_values">
+        <item>From url</item>
+        <item>From file</item>
+    </string-array>
+
+
+    <string name="perf_cache">启用缓存</string>
+    <string name="perf_cache_desc_enabled">如果禁用，应用程序将不会存储在数据库中</string>
+    <string name="perf_cache_desc_disabled">如果启用，应用程序将存储在数据库中下载的资讯</string>
+    <string name="perf_cache_key">perf_feeds_cache</string>
+
+    <string name="perf_system">系统</string>
+    <string name="perf_reset_db">重置数据库</string>
+    <string name="perf_reset_db_desc">将数据库还原到初始状态</string>
+    <string name="perf_reset_db_message">这会从数据库中删除所有的值。这包括删除您的资源，档案和订阅。</string>
+
+    <string name="perf_misc">杂项</string>
+
+    <string name="perf_feeds_not_working">无法订阅吗？</string>
+    <string name="perf_feeds_not_working_desc">并不是每一个RSS源将与应用程序正常工作，所以为了让它工作，你需要修改你的订阅。点击此处查看教程</string>
+    <string name="perf_feeds_not_working_key">perf_feeds_not_working_key</string>
+
+    <string name="swipe_down">Pull to refresh</string>
+    <string name="archive_empty">Archive is empty</string>
+    <string name="action_open_in_browser">Open in browser</string>
+    <string name="refresh">Refresh</string>
+    <string name="no_internet_available">无因特网连接</string>
+    <string name="no_internet_available_extnd">无法检测到互联网连接，请检查你的网络设置</string>
+    <string name="settings">Settings</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="clear_feeds_desc">这将删除当前可用的订阅。别担心，这不会重置你的档案。</string>
+    <string name="clear">Clear</string>
+    <string name="no_content_available">没有可用的内容</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="section_format">Hello</string>
+    <string name="splash_title_1">News Center</string>
+    <string name="splash_title_2">更加方便的浏览RSS</string>
+    <string name="splash_title_3">管理，收藏和分享您的订阅</string>
+    <string name="splash_desc_1">一个极轻的阅读器</string>
+    <string name="splash_desc_2">可以快速浏览</string>
+    <string name="splash_desc_3">添加您自己的RSS源，管理他们，读相关的文章</string>
+
+    <string name="title_activity_about">About</string>
+    <string name="created_by">1101D</string>
+    <string name="contact_dev">联系开发者</string>
+
+    <string-array name="contacts">
+        <item>Email</item>
+    </string-array>
+
+
+    <string name="libraries_used">使用的库</string>
+    <string name="library">库</string>
+    <string name="library_creator">库的开发者</string>
+    <string name="library_desc">Library Desc</string>
+    <string name="rate">Rate App</string>
+    <string name="source_code">源代码</string>
+    <string name="github_source_code">https://github.com</string>
+    <string name="licence">Licence</string>
+    <string name="licence_desc">1101D</string>
+    <string name="enter_url">Enter Url</string>
+    <string name="url">Url</string>
+    <string name="enter_url_here">Enter url here</string>
+    <string name="get_feeds">Get feeds</string>
+    <string name="select_feeds">Select Feeds</string>
+    <string name="import_str">Import</string>
+    <string name="change_log">Change Log</string>
+    <string name="delete_this_feed">Delete this Feed</string>
+    <string name="change_log_desc"><b>Version 1.0</b></string>
+    <string name="delete_this_feed_desc">这将消除主屏幕上的订阅。</string>
+    <string name="syncing_feeds">Sync Feeds</string>
+    <string name="sync">Sync</string>
+    <string name="feeds_synced">Feeds Synced</string>
+    <string name="downloading_feeds">下载订阅</string>
+    <string name="download_complete">下载完成</string>
+    <string name="contributions">Contributions</string>
+    <string name="contributions_desc">These people contributed in the development of this app.</string>
+
+    <string-array name="contributions_arr">
+        <item>LukeOwncloud</item>
+    </string-array>
+
+    <string-array name="contributions_links_arr">
+        <item>TEST</item>
+    </string-array>
+
+    <string-array name="library_names">
+        <item>TEST</item>
+    </string-array>
+
+    <string-array name="library_descs">
+        <item>TEST</item>
+    </string-array>
+
+    <string-array name="library_creators">
+        <item>J1101D</item>
+    </string-array>
+
+    <string-array name="library_links">
+        <item>1101D</item>
+    </string-array>
+
+</resources>
